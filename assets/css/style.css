@@ -62,3 +62,14 @@ html, body{
 .fielo-app-menu__btn{
     display: none;
 }
+
+.fielo-menu.fielo-menu--isVertical.fielo-navigation{
+    width: 70px;
+    position: fixed;
+    top: 50%;
+}
+
+a.fielo-link i{
+    font-size: 3em;
+    margin: 10px auto;
+}
