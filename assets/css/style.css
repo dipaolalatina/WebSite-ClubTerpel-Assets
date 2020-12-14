@@ -63,7 +63,7 @@ html, body{
     display: none;
 }
 
-.fielo-menu.fielo-menu--isVertical.fielo-navigation{
+.fielo-menu--isVertical{
     width: 70px;
     position: fixed;
     top: 50%;
