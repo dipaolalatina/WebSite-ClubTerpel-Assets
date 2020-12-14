@@ -56,3 +56,9 @@ html, body{
     font-style: normal;
     font-weight: 500;
 }
+
+/* Nav */
+
+.fielo-app-menu__btn{
+    display: none;
+}
