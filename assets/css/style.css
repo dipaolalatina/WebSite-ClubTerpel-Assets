@@ -63,13 +63,13 @@ html, body{
     display: none;
 }
 
-.fielo-menu--isVertical{
+.fielo-menu.fielo-menu--isVertical.fielo-navigation{
     width: 70px;
     position: fixed;
-    top: 50%;
+    top: 40%;
 }
 
-a.fielo-link i{
+.fielo-menu.fielo-menu--isVertical.fielo-navigation nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered li.fielo-list__item a.fielo-link i{
     font-size: 3em;
     margin: 10px auto;
 }
