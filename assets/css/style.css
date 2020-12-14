@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Terpel Sans';
+    src: url('../fonts/terpelsans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/terpelsans-regular-webfont.woff') format('woff'),
+         url('../fonts/terpelsans-regular-webfont.svg#terpel_sansregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Terpel Sans';
+    src: url('../fonts/terpelsans-medium-webfont.woff2') format('woff2'),
+         url('../fonts/terpelsans-medium-webfont.woff') format('woff'),
+         url('../fonts/terpelsans-medium-webfont.svg#terpel_sansmedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Terpel Sans';
+    src: url('../fonts/terpelsans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/terpelsans-bold-webfont.woff') format('woff'),
+         url('../fonts/terpelsans-bold-webfont.svg#terpel_sansbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Terpel Sans';
+    src: url('../fonts/terpelsans-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/terpelsans-extrabold-webfont.woff') format('woff'),
+         url('../fonts/terpelsans-extrabold-webfont.svg#terpel_sansextrabold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Terpel Sans';
+    src: url('../fonts/terpelsans-black-webfont.woff2') format('woff2'),
+         url('../fonts/terpelsans-black-webfont.woff') format('woff'),
+         url('../fonts/terpelsans-black-webfont.svg#terpel_sansblack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Terpel Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
