@@ -87,7 +87,13 @@ html, body{
 @media (min-width:1080px) {
     .fielo-menu.fielo-menu--isVertical.fielo-navigation{
         display: block;
+        background: #fff;
+        border-radius: 0px 20px 20px 0px;
     }
+}
+
+.fielo-menu.fielo-menu--isVertical.fielo-navigation nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered li.fielo-list__item{
+    padding-left: 0px;
 }
 
 .fielo-menu.fielo-menu--isVertical.fielo-navigation nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered li.fielo-list__item a.fielo-link i{
@@ -114,6 +120,12 @@ html, body{
     .fielo-menu.fielo-menu--isHorizontal.fielo-navigation nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered{
         padding-top: 30px;
         padding-left: 430px;
+    }
+}
+
+@media (min-width:1400px) {
+    .fielo-menu.fielo-menu--isHorizontal.fielo-navigation nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered{
+        padding-left: 700px;
     }
 }
 
@@ -160,7 +172,7 @@ html, body{
 
 /* Footer */
 .fielo-footer.fielo-content{
-    padding:0;
+    padding:0!important;
 }
 
 .fielo-footer{
@@ -191,8 +203,16 @@ html, body{
     margin-bottom: 15px;
 }
 
-.footer-numbers-margin{
-    margin-left: 85px;
+@media (min-width:320px) {
+    .footer-numbers-margin{
+        margin-left: 0px;
+    }
+}
+  
+@media (min-width:1080px) {
+    .footer-numbers-margin{
+        margin-left: 85px;
+    }
 }
 
 .logo-footer{
@@ -212,6 +232,7 @@ html, body{
 
 .space-up-1{
     margin-top: 43px;
+    margin-bottom: 20px;
 }
 
 .nav-footer-1{
@@ -233,4 +254,51 @@ html, body{
 main.fielo-main{
     max-width: 100%;
     width: 100%;
+}
+
+/* Inicio */
+
+.banner-inicio{
+    background-image: url('../images/inicio/banner-inicio.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+
+@media (min-width:1080px) {
+    .banner-inicio{        
+        min-height: 470px;
+    }
+}
+
+@media (min-width:1400px) {
+    .banner-inicio{        
+        min-height: 650px;
+    }
+}
+
+.header-text-1{
+    font-weight: 800;
+    font-size: 5em;
+    color: #ff1e0a;
+}
+
+.header-text-2{
+    font-weight: 400;
+    color: #ff1e0a;
+    text-transform: uppercase;
+    font-size: 1.6em;
+}
+
+.btn-terpel{
+    border: 2px solid #ff1e0a;
+    border-radius: 60px;
+    padding: 7px 100px;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+}
+
+.btn-ui-1{
+    color: #ff1e0a;
+    background: #fff;
 }
