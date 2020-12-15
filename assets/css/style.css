@@ -70,8 +70,14 @@ html, body{
 }
 
 .fielo-menu.fielo-menu--isVertical.fielo-navigation nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered li.fielo-list__item a.fielo-link i{
-    font-size: 3em;
-    margin: 10px auto;
+    font-size: 1.7em;
+    margin: 7px auto;
+    border: 2px solid #ff1e0a;
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    color: #ff1e0a;
 }
 
 .fielo-menu.fielo-menu--isHorizontal.fielo-navigation nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered{
@@ -124,4 +130,11 @@ html, body{
 
 .btn-register a.fielo-link{
     color: #ff1e0a!important;
+}
+
+/* Main Content Public */
+
+main.fielo-main{
+    max-width: 100%;
+    width: 100%;
 }
