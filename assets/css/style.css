@@ -263,10 +263,12 @@ main.fielo-main{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    min-height: 500px;
 }
 
 .banner-inicio div{
     background: rgba(250, 250, 250, .7);
+    padding-top: 50px;
 }
 
 @media (min-width:1080px) {
@@ -277,6 +279,7 @@ main.fielo-main{
 
     .banner-inicio div{
         background: transparent;
+        padding-top: 0px;
     }
 }
 
@@ -288,8 +291,14 @@ main.fielo-main{
 
 .header-text-1{
     font-weight: 800;
-    font-size: 5em;
+    font-size: 4em;
     color: #ff1e0a;
+}
+
+@media (min-width:1080px) {
+    .header-text-1{
+        font-size: 5em;
+    }
 }
 
 .header-text-2{
@@ -321,3 +330,58 @@ main.fielo-main{
 .btn-ui-1:hover{
     color: #ff1e0a;
 }
+
+.btn-ui-2{
+    color: #fff;
+    background: #ff1e0a;
+}
+
+.btn-ui-2:hover{
+    color: #fff;
+}
+
+.bg-grey{
+    background: #f7f7f7;
+    padding: 40px 0px;
+}
+
+.inicio__icon{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+@media (min-width:1080px) {
+    .inicio__icon{
+        margin-bottom: 0px;
+        text-align: left;
+    }
+}
+
+.inicio__icon h2{
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #ff1e0a;
+    margin: 0;
+}
+
+.inicio__icon h3{
+    font-size: 1.1rem;
+}
+
+img.img__inicio-icon{
+    max-width: 66px;
+    height: 42px;
+}
+
+.arrow-separator{
+    vertical-align: bottom;
+    position: relative;
+    bottom: -60px;
+}
+
+.h-content{
+    font-weight: 800;
+    font-size: 3rem;
+    color: #ff1e0a;
+}
+
