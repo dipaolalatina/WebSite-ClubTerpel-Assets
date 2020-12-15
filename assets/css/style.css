@@ -57,6 +57,15 @@ html, body{
     font-weight: 500;
 }
 
+
+@media (min-width:320px) {
+
+}
+  
+@media (min-width:1080px) {
+
+}
+
 /* Nav */
 
 .fielo-app-menu__btn{
@@ -81,14 +90,19 @@ html, body{
 }
 
 .fielo-menu.fielo-menu--isHorizontal.fielo-navigation nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered{
-    padding-top: 30px;
-    padding-left: 430px;
     padding-bottom: 30px;
     border-bottom: 1px solid #fafafa;
     background-image: url('../images/LOGO-CLUBT.svg');
     background-repeat: no-repeat;
     background-size: 12%;
     background-position: 10% 50%;
+}
+
+@media (min-width:1080px) {
+    .fielo-menu.fielo-menu--isHorizontal.fielo-navigation nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered{
+        padding-top: 30px;
+        padding-left: 430px;
+    }
 }
 
 .fielo-menu.fielo-menu--isHorizontal.fielo-navigation nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered li.fielo-list__item{
