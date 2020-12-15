@@ -73,3 +73,10 @@ html, body{
     font-size: 3em;
     margin: 10px auto;
 }
+
+.fielo-menu.fielo-menu--isHorizontal.fielo-navigation nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered{
+    padding-top: 30px;
+    padding-left: 430px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #fafafa;
+}
