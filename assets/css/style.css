@@ -78,6 +78,18 @@ html, body{
     top: 40%;
 }
 
+@media (min-width:320px) {
+    .fielo-menu.fielo-menu--isVertical.fielo-navigation{
+        display: none;
+    }
+}
+
+@media (min-width:1080px) {
+    .fielo-menu.fielo-menu--isVertical.fielo-navigation{
+        display: block;
+    }
+}
+
 .fielo-menu.fielo-menu--isVertical.fielo-navigation nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered li.fielo-list__item a.fielo-link i{
     font-size: 1.7em;
     margin: 7px auto;
