@@ -132,6 +132,67 @@ html, body{
     color: #ff1e0a!important;
 }
 
+/* Footer */
+.el-footer{
+    background-color: #ff1e0a;
+    color: #fff;
+    padding: 30px 45px;
+}
+
+.el-copyright{
+    background-color: #ae1b17;
+    color: #fff;
+}
+
+.title-footer{
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.footer-title-linea{
+    height: 1px;
+    background: #fff;
+    width: 50px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.footer-numbers-margin{
+    margin-left: 85px;
+}
+
+.logo-footer{
+    width: 100%;
+    max-width: 42px;
+}
+
+.texto-footer-1{
+    line-height: 1.3em;
+}
+
+.footer-numbers{
+    font-weight: 900;
+    font-size: 1.6em;
+}
+
+.space-up-1{
+    margin-top: 43px;
+}
+
+.nav-footer-1{
+    padding: 0;
+    list-style: none;
+}
+
+.nav-footer-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-footer-link:hover{
+    color: #fff;
+}
+
 /* Main Content Public */
 
 main.fielo-main{
