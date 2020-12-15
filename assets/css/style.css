@@ -261,13 +261,22 @@ main.fielo-main{
 .banner-inicio{
     background-image: url('../images/inicio/banner-inicio.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 100%;
+}
+
+.banner-inicio div{
+    background: rgba(250, 250, 250, .7);
 }
 
 @media (min-width:1080px) {
     .banner-inicio{        
         min-height: 470px;
+        background-size: 100%;
+    }
+
+    .banner-inicio div{
+        background: trasparent;
     }
 }
 
@@ -300,7 +309,15 @@ main.fielo-main{
     text-decoration: none;
 }
 
+.btn-terpel:hover{
+    text-decoration: none;
+}
+
 .btn-ui-1{
     color: #ff1e0a;
     background: #fff;
+}
+
+.btn-ui-1:hover{
+    color: #ff1e0a;
 }
