@@ -377,6 +377,7 @@ img.img__inicio-icon{
     vertical-align: bottom;
     position: relative;
     bottom: -60px;
+    max-width: 38px;
 }
 
 .h-content{
