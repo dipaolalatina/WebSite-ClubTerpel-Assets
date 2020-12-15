@@ -133,6 +133,14 @@ html, body{
 }
 
 /* Footer */
+.fielo-footer.fielo-content{
+    padding:0;
+}
+
+.fielo-footer{
+    border-top: 0;
+}
+
 .el-footer{
     background-color: #ff1e0a;
     color: #fff;
@@ -146,7 +154,7 @@ html, body{
 
 .title-footer{
     font-weight: 900;
-    font-size: 1em;
+    font-size: 1.2rem;
 }
 
 .footer-title-linea{
@@ -168,6 +176,7 @@ html, body{
 
 .texto-footer-1{
     line-height: 1.3em;
+    font-size: 1.6em;
 }
 
 .footer-numbers{
