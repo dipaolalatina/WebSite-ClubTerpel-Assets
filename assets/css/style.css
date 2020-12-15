@@ -288,6 +288,7 @@ main.fielo-main{
     color: #ff1e0a;
     text-transform: uppercase;
     font-size: 1.6em;
+    margin-bottom: 30px;
 }
 
 .btn-terpel{
@@ -296,6 +297,7 @@ main.fielo-main{
     padding: 7px 100px;
     text-transform: uppercase;
     letter-spacing: .08em;
+    text-decoration: none;
 }
 
 .btn-ui-1{
