@@ -79,4 +79,14 @@ html, body{
     padding-left: 430px;
     padding-bottom: 30px;
     border-bottom: 1px solid #fafafa;
+    background-image: url('../images/LOGO-CLUBT.svg');
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 50% 50%;
+}
+
+.fielo-menu.fielo-menu--isHorizontal.fielo-navigation nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered li.fielo-list__item a.fielo-link,
+.fielo-menu.fielo-menu--isHorizontal.fielo-navigation nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered li.fielo-list__item a.fielo-link:visited{
+    color: #55565b;
+    text-decoration: none;
 }
