@@ -268,7 +268,7 @@ main.fielo-main{
 
 .banner-inicio div{
     background: rgba(250, 250, 250, .7);
-    padding-top: 50px;
+    padding: 50px 40px;
 }
 
 @media (min-width:1080px) {
@@ -279,7 +279,7 @@ main.fielo-main{
 
     .banner-inicio div{
         background: transparent;
-        padding-top: 0px;
+        padding: 0px;
     }
 }
 
@@ -291,7 +291,7 @@ main.fielo-main{
 
 .header-text-1{
     font-weight: 800;
-    font-size: 4em;
+    font-size: 3.5em;
     color: #ff1e0a;
 }
 
@@ -312,10 +312,16 @@ main.fielo-main{
 .btn-terpel{
     border: 2px solid #ff1e0a;
     border-radius: 60px;
-    padding: 7px 100px;
+    padding: 7px 80px;
     text-transform: uppercase;
     letter-spacing: .08em;
     text-decoration: none;
+}
+
+@media (min-width:1080px) {
+    .btn-terpel{
+        padding: 7px 100px;
+    }
 }
 
 .btn-terpel:hover{
@@ -370,7 +376,7 @@ main.fielo-main{
 
 img.img__inicio-icon{
     max-width: 66px;
-    height: 42px;
+    height: 66px;
 }
 
 .arrow-separator{
