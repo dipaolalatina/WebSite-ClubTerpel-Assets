@@ -217,7 +217,8 @@ html, body{
 
 
 /* Footer */
-.fielo-footer.fielo-content{
+
+.fielo-footer .fielo-content{
     padding:0!important;
 }
 
