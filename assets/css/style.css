@@ -162,6 +162,7 @@ html, body{
         background-repeat: no-repeat;
         background-size: 12%;
         background-position: 10% 50%;
+        background-color: #fff;
     }
 }
 
@@ -486,4 +487,18 @@ img.img__inicio-icon{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
+}
+
+/* REGISTRO */
+
+.body__bg-grey{
+    background: #e9e9e9!important;
+}
+
+h1.header_registro{
+    color: #ff1e0a;
+}
+
+h1.header_registro b{
+    font-weight: 900;
 }
