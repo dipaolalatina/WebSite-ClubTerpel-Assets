@@ -283,7 +283,8 @@ html, body{
 
 .nav-footer-1{
     padding: 0;
-    list-style: none;
+    list-style: none!important;
+    margin-left: -15px;
 }
 
 .nav-footer-link{
