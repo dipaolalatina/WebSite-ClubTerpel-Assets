@@ -518,3 +518,15 @@ h1.header_registro b{
         height: 360px;
     }
 }
+
+.ct-rg-registrame iframe.fielo-iframe__canvas{
+    height: 1050px;
+    min-height: 1050px;
+}
+
+@media (min-width:1080px) {
+    .ct-rg-registrame iframe.fielo-iframe__canvas{
+        min-height: 800px;
+        height: 800px;
+    }
+}
