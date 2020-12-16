@@ -506,3 +506,15 @@ h1.header_registro{
 h1.header_registro b{
     font-weight: 900;
 }
+
+.ct-rg-form iframe.fielo-iframe__canvas{
+    height: 666px;
+    min-height: 666px;
+}
+
+@media (min-width:1080px) {
+    .ct-rg-form iframe.fielo-iframe__canvas{
+        min-height: 360px;
+        height: 360px;
+    }
+}
