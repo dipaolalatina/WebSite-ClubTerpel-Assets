@@ -497,6 +497,9 @@ img.img__inicio-icon{
 
 h1.header_registro{
     color: #ff1e0a;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 h1.header_registro b{
