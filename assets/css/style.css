@@ -434,8 +434,14 @@ img.img__inicio-icon{
 
 .h-content{
     font-weight: 800;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #ff1e0a;
+}
+
+@media (min-width:1080px) {
+    .h-content{
+        font-size: 3rem;
+    }
 }
 
 /* CONOCENOS */
