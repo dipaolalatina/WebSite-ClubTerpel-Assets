@@ -104,6 +104,16 @@ html, body{
     }
 }
 
+.header__main-nav{
+    display: none;
+}
+
+@media (min-width:1080px) {
+    .header__main-nav{
+        display: block;
+    }
+}
+
 @media (min-width:320px) {
     .fielo-menu.fielo-menu--isVertical.fielo-navigation{
         display: none;
@@ -341,7 +351,7 @@ main.fielo-main{
 .btn-terpel{
     border: 2px solid #ff1e0a;
     border-radius: 60px;
-    padding: 7px 80px;
+    padding: 7px 60px;
     text-transform: uppercase;
     letter-spacing: .08em;
     text-decoration: none;
