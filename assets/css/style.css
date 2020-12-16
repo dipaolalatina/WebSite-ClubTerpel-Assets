@@ -478,3 +478,12 @@ img.img__inicio-icon{
     font-size: 1.2rem;
 }
 
+/* BENEFICIOS */
+
+.arrow-separator-3{
+    height: 35px;
+    background-image: url('../images/arrow-separator.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
