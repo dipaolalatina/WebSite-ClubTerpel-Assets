@@ -93,6 +93,12 @@ html, body{
     top: 40%;
 }
 
+.fielo-app-menu .fielo-list__item .fielo-link:active,
+.fielo-app-menu .fielo-list__item .fielo-link:focus,
+.fielo-app-menu .fielo-list__item .fielo-link:hover {
+	background: transparent!important;
+}
+
 .header__nav-responsive{
     padding: 5px 10px;
     background: #f7f7f7;
