@@ -291,7 +291,7 @@ html, body{
     text-decoration: none;
 }
 
-.nav-footer-link:hover{
+.nav-footer-link:hover, .nav-footer-link:visited{
     color: #fff;
 }
 
