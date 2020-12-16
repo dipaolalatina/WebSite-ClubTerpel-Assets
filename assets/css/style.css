@@ -530,3 +530,30 @@ h1.header_registro b{
         height: 800px;
     }
 }
+
+/* TERMINOS Y CONDICIONES */
+
+.h-terminos{
+    font-weight: 900;
+    font-size: 2rem;
+    color: #ff1e0a;
+    margin-top: 60px;
+}
+
+@media (min-width:1080px) {
+    .h-terminos{
+        font-size: 3.5rem;
+    }
+}
+
+.p-terminos{
+    text-align: justify;
+}
+
+.p-terminos, ol.lista__terminos-y-condiciones li{
+    font-size: .8rem;
+}
+
+ol.lista__terminos-y-condiciones li{
+    margin-bottom: 10px;
+}
