@@ -425,9 +425,44 @@ img.img__inicio-icon{
     max-width: 38px;
 }
 
+.arrow-separator-2{
+    vertical-align: bottom;
+    position: relative;
+    bottom: -20px;
+    max-width: 38px;
+}
+
 .h-content{
     font-weight: 800;
     font-size: 3rem;
     color: #ff1e0a;
+}
+
+/* CONOCENOS */
+
+.img__icon-conocenos{
+    height: 70px;
+}
+
+.subheader__div-conocenos{
+    color: #666666;
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header__icon-conocenos{
+    color: #ff1e0a;
+    font-weight: 800;
+    font-size: 1.3rem;
+    letter-spacing: .08rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.subheader__icon-conocenos{
+    color: #666666;
+    font-size: 1.2rem;
 }
 
