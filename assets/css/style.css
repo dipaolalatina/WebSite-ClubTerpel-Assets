@@ -73,6 +73,12 @@ html, body{
     margin-top: 10px;
 }
 
+@media (min-width:1080px) {
+    .fielo-app-menu__btn{
+        display: none;
+    }
+}
+
 .fielo-app-menu__btn-bar{
     background-color: #ff1e0a;
 }
@@ -90,6 +96,12 @@ html, body{
 .header__nav-responsive{
     padding: 5px 10px;
     background: #f7f7f7;
+}
+
+@media (min-width:1080px) {
+    .header__nav-responsive{
+        display: none;
+    }
 }
 
 @media (min-width:320px) {
