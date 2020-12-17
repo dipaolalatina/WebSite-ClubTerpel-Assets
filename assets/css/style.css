@@ -590,6 +590,29 @@ ol.lista__terminos-y-condiciones li{
     text-align: center;
 }
 
+.slds-select_container{
+  overflow: hidden;
+  overflow: -moz-hidden-unscrollable;
+  background: url('../images/arrow_red.png') no-repeat right transparent;
+  display: inline-block;
+  position: relative;
+}
+
+.slds-select_container select.slds-select{
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    width: 100px;
+    font-size: 11px;
+    border: 0;
+    height: 17px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 .slds-select{
     min-width: 95%;
     border: .2em solid #ff1e0a;
