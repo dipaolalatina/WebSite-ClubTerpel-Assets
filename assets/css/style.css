@@ -645,3 +645,30 @@ select.classic:focus {
 .slds-select_container iframe{
     margin-top: 20px;
 }
+
+
+/* Privada */
+
+.privateTmp .fielo-header{
+    background: transparent;
+}
+
+/* Nav Priv */
+
+.fielo-message.fielo-message--is-global.fielo-message--is-info{
+    position: fixed;
+    width: 40%;
+    margin-left: 33%;
+    z-index: 99999999;
+    text-align: center;
+    padding: 20px 0;
+    top: 11%;
+    border-radius: 10px;
+    box-shadow: 6px 6px 16px 0 grey;
+}
+
+.fielo-message.fielo-message--is-global.fielo-message--is-info p.fielo-message__text{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
