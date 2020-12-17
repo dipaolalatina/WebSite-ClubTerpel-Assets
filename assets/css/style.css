@@ -235,6 +235,7 @@ html, body{
 .el-copyright{
     background-color: #ae1b17;
     color: #fff;
+    font-size: 1rem;
 }
 
 .title-footer{
@@ -262,9 +263,22 @@ html, body{
     }
 }
 
+@media (min-width:1400px) {
+    .footer-numbers-margin{
+        margin-left: 110px;
+    }
+}
+
 .logo-footer{
     width: 100%;
     max-width: 42px;
+    margin-left: 25px;
+}
+
+@media (min-width:1400px) {
+    .logo-footer{
+        margin-left: 60px;
+    }
 }
 
 .texto-footer-1{
@@ -558,3 +572,29 @@ h1.header_registro b{
 ol.lista__terminos-y-condiciones li{
     margin-bottom: 10px;
 }
+
+/* Acordeon */
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
