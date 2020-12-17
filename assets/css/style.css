@@ -582,6 +582,8 @@ ol.lista__terminos-y-condiciones li{
 @media (min-width:1080px) {
     .slds-form-element{
         min-width: 25%;
+        margin-left: 0!important;
+        margin-top: 25px;
     }
 }
 
@@ -591,7 +593,6 @@ ol.lista__terminos-y-condiciones li{
 }
 
 .slds-select{
-   /* styling */
     min-width: 95%;
     border: .2em solid #ff1e0a;
     padding: 4px 10px;
@@ -603,41 +604,42 @@ ol.lista__terminos-y-condiciones li{
     box-sizing: border-box;
     -webkit-appearance: none;
     -moz-appearance: none;
+    outline: none;
 }
 
 select.slds-select {
     background-image:
-      linear-gradient(45deg, transparent 50%, red 50%),
-      linear-gradient(135deg, red 50%, transparent 50%),
-      linear-gradient(to right, #fff, #fff);
+        linear-gradient(45deg, transparent 50%, red 50%),
+        linear-gradient(135deg, red 50%, transparent 50%),
+        linear-gradient(to right, #fff, #fff);
     background-position:
-      calc(100% - 25px) calc(1em + 2px),
-      calc(100% - 15px) calc(1em + 2px),
-      100% 0;
+        calc(100% - 25px) calc(1em - 1px),
+        calc(100% - 15px) calc(1em - 1px),
+        100% 0;
     background-size:
-      10px 10px,
-      10px 10px,
-      3em 3em;
+        10px 10px,
+        10px 10px,
+        3em 3em;
     background-repeat: no-repeat;
-  }
+}
   
-  select.classic:focus {
+select.classic:focus {
     background-image:
-      linear-gradient(45deg, red 50%, transparent 50%),
-      linear-gradient(135deg, transparent 50%, red 50%),
-      linear-gradient(to right, #fff, #fff);
+    linear-gradient(45deg, red 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, red 50%),
+    linear-gradient(to right, #fff, #fff);
     background-position:
-      calc(100% - 15px) 1em,
-      calc(100% - 25px) 1em,
-      100% 0;
+    calc(100% - 15px) 1em,
+    calc(100% - 25px) 1em,
+    100% 0;
     background-size:
-      10px 10px,
-      10px 10px,
-      3em 3em;
+    10px 10px,
+    10px 10px,
+    3em 3em;
     background-repeat: no-repeat;
     border-color: grey;
     outline: 0;
-  }
+}
   
 
 .slds-select_container iframe{
