@@ -575,106 +575,109 @@ ol.lista__terminos-y-condiciones li{
 
 /* Acordeon */
 
-.collapse-content {
-    width: 50vw;
-    margin: auto;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  }
-  
-  .collapse-1 {
-    background: #fff;
-  }
-  
-  .collapse-1 a {
-    display: block;
-    font-size: 1rem;
-    font-weight: 500;
-    padding: 0.9rem 1.8rem;
+section {
+    max-width: var(--sectionWidth);
+    margin: 40px auto;
+    width: 97%;
     color: #fff;
-    position: relative;
   }
   
-  .collapse-1 a.instagram {
-    background: #db2e7d;
+  summary {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    font-family: "Space Mono", monospace;
+    font-size: 22px;
+    transition: .3s;
+    border-bottom: 2px solid;
+    user-select: none;
   }
   
-  .collapse-1 a.twitter {
-    background: #1dabdd;
+  details > div {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    height: 100%;
+    user-select: none;
+    padding: 0 20px;
+    font-family: "Karla", sans-serif;
+    line-height: 1.5;
   }
   
-  .collapse-1 a.dribbble {
-    background: #444;
+  details > div > img {
+    align-self: flex-start;
+    max-width: 100%;
+    margin-top: 20px;
   }
   
-  .collapse-1 a.youtube {
-    background: #ff0000;
+  details > div > p {
+    flex: 1;
   }
   
-  .collapse-1 a:before {
-    content: "";
-    border-top: 7px solid #fff;
-    border-left: 7px solid transparent;
-    border-right: 7px solid transparent;
-    position: absolute;
-    top: 25px;
-    right: 30px;
+  details[open] > summary {
+     color: red;
   }
   
-  .inner-content {
-    padding: 1.8rem;
-  }
+  @media (min-width: 768px) {
+    details[open] > div > p {
+      opacity: 0;
+      animation-name: showContent;
+      animation-duration: 0.6s;
+      animation-delay: 0.2s;
+      animation-fill-mode: forwards;
+      margin: 0;
+      padding-left: 20px;
+    }
   
-  .content {
-    max-height: 0em;
-    transition: 0.3s linear 0s;
-    overflow: hidden;
-  }
+    details[open] > div {
+      animation-name: slideDown;
+      animation-duration: 0.3s;
+      animation-fill-mode: forwards;
+    }
   
-  .collapse-1 + .collapse-1 a {
-    border-top: 1px solid rgba(255, 255, 255, 0.7);
-  }
-  
-  h3 {
-    margin-bottom: 15px;
-  }
-  
-  .collapse-1:target .content {
-    max-height: 15em;
-  }
-  
-  .collapse-1:target a:before {
-    transform: rotate(-90deg);
-  }
-  
-  @media (max-width: 768px) {
-    .collapse-content {
-      width: 80vw;
-      margin: auto;
-      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    details[open] > div > img {
+      opacity: 0;
+      height: 100%;
+      margin: 0;
+      animation-name: showImage;
+      animation-duration: 0.3s;
+      animation-delay: 0.15s;
+      animation-fill-mode: forwards;
     }
   }
-  @media (max-width: 425px) {
-
-    .collapse-content {
-      width: 80vw;
+  
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      height: 0;
+      padding: 0;
     }
-    .inner-content {
-      padding: 1.2rem;
-    }
-    .inner-content h3 {
-      margin-bottom: 0.3rem;
-    }
-  }
-  @media (max-width: 320px) {
-
-    .collapse-content {
-      width: 80vw;
-    }
-    .inner-content {
-      padding: 0.8rem;
-    }
-    .inner-content h3 {
-      margin-bottom: 0.3rem;
+  
+    to {
+      opacity: 1;
+      height: var(--contentHeight);
+      padding: 20px;
     }
   }
-
+  
+  @keyframes showImage {
+    from {
+      opacity: 0;
+      clip-path: inset(50% 0 50% 0);
+      transform: scale(0.4);
+    }
+  
+    to {
+      opacity: 1;
+      clip-path: inset(0 0 0 0);
+    }
+  }
+  
+  @keyframes showContent {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
