@@ -575,7 +575,7 @@ ol.lista__terminos-y-condiciones li{
 
 /* Acordeon */
 
-.accordion {
+a.accordion {
     background-color: #eee;
     color: #444;
     cursor: pointer;
@@ -588,7 +588,7 @@ ol.lista__terminos-y-condiciones li{
     transition: 0.4s;
   }
   
-  .active, .accordion:hover {
+  .active, a.accordion:hover {
     background-color: #ccc; 
   }
   
@@ -598,3 +598,4 @@ ol.lista__terminos-y-condiciones li{
     background-color: white;
     overflow: hidden;
   }
+
