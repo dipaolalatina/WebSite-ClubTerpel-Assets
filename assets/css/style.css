@@ -575,14 +575,14 @@ ol.lista__terminos-y-condiciones li{
 
 /* Acordeon */
 
-section {
+.acordeon {
     max-width: var(--sectionWidth);
     margin: 40px auto;
     width: 97%;
-    color: #fff;
+    color: black;
   }
   
-  summary {
+  div.sumary {
     display: block;
     cursor: pointer;
     padding: 10px;
@@ -593,7 +593,7 @@ section {
     user-select: none;
   }
   
-  details > div {
+  div.details > div {
     display: flex;
     flex-wrap: wrap;
     overflow: auto;
@@ -604,22 +604,22 @@ section {
     line-height: 1.5;
   }
   
-  details > div > img {
+  div.details > div > img {
     align-self: flex-start;
     max-width: 100%;
     margin-top: 20px;
   }
   
-  details > div > p {
+  div.details > div > p {
     flex: 1;
   }
   
-  details[open] > summary {
+  div.details[open] > div.summary {
      color: red;
   }
   
   @media (min-width: 768px) {
-    details[open] > div > p {
+    div.details[open] > div > p {
       opacity: 0;
       animation-name: showContent;
       animation-duration: 0.6s;
@@ -629,13 +629,13 @@ section {
       padding-left: 20px;
     }
   
-    details[open] > div {
+    div.details[open] > div {
       animation-name: slideDown;
       animation-duration: 0.3s;
       animation-fill-mode: forwards;
     }
   
-    details[open] > div > img {
+    div.details[open] > div > img {
       opacity: 0;
       height: 100%;
       margin: 0;
