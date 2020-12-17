@@ -672,3 +672,20 @@ select.classic:focus {
     font-weight: 400;
 }
 
+.fieloplt-shopping-cart-quantity-indicator__value{
+    min-width: 20px;
+    min-height: 20px;
+    padding: 3px 3px 3px;
+}
+
+@media (min-width:1080px) {
+    .fielo-menu.fielo-menu--isHorizontal.fielo-navigation.private__main-nav nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered{
+        padding-left: 300px;
+    }
+}
+
+@media (min-width:1400px) {
+    .fielo-menu.fielo-menu--isHorizontal.fielo-navigation.private__main-nav nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered{
+        padding-left: 650px;
+    }
+}
