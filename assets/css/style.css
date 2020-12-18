@@ -61,6 +61,10 @@ html.bg-grey-3 body{
     background: #f7f7f7;
 }
 
+table, tr, th, td{
+    font-family: 'Terpel Sans', Arial, sans-serif;
+}
+
 html.bg-grey-4 body{
     background: #e9e9e9;
 }
