@@ -862,8 +862,15 @@ div.form__update-data{
 }
 
 div.form__update-data span form{
-    width: 50%;
+    width: 100%;
     margin: auto;
+}
+
+@media (min-width:1080px) {
+    div.form__update-data span form{
+        width: 50%;
+        margin: auto;
+    }
 }
 
 div.form__update-data span form div.label{
@@ -884,6 +891,13 @@ div.form__update-data span form > div > div{
     margin: 0 auto;
 }
 
+@media (min-width:1080px) {
+    div.form__update-data span form > div > div{
+        width: 45%;
+        margin: 0 auto;
+    }
+}
+
 div.form__update-data span form > div > div > input.input{
     width: 100%;
     border-radius: 10px;
@@ -893,14 +907,21 @@ div.form__update-data span form > div > div > input.input{
 div.form__update-data span form > div > div > input.btn.btnRed{
     border: 0;
     background: #ff1e0a;
-    width: 100%;
+    width: 90%;
     border-radius: 30px;
     text-transform: uppercase;
     font-family: 'Terpel Sans', Arial, sans-serif;
     font-weight: 700;
     letter-spacing: .15rem;
     padding: 8px 0px;
+    margin-top: 10px;
+}
 
+@media (min-width:1080px) {
+    div.form__update-data span form > div > div > input.btn.btnRed{
+        width: 100%;
+        margin-top:0;
+    }
 }
 
 div.form__update-data span form > div > input.btn.btnRed{
