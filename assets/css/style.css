@@ -857,20 +857,22 @@ img.perfil__redenciones-moto-img{
     }
 }
 
-div.formulario-terpel span form{
+
+
+div.form__update-data span form{
     width: 50%;
     margin: auto;
 }
 
-div.formulario-terpel span form div.label{
+div.form__update-data span form div.label{
     text-align: center;
 }
 
-div.formulario-terpel span form > div > div{
+div.form__update-data span form > div > div{
     width: 50%;
 }
 
-div.formulario-terpel span form > div > div > input.input{
+div.form__update-data span form > div > div > input.input{
     width: 100%;
 } 
 
