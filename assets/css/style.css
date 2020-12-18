@@ -770,6 +770,10 @@ dd.ac-cuadro__txt{
 
 /* Mi Perfil */
 
+.htmlDetailElementTable{
+    width: 100%;
+}
+
 .bg-grey-2{
     background: #e9e9e9;
     padding: 40px 0px;
@@ -829,4 +833,18 @@ img.perfil__redenciones-img{
 
 img.perfil__redenciones-moto-img{
     width: 100%;
+}
+
+/* Actualizar Datos */
+
+.ct__update-profile iframe.fielo-iframe__canvas{
+    height: 1200px;
+    min-height: 1200px;
+}
+
+@media (min-width:1080px) {
+    .ct__update-profile iframe.fielo-iframe__canvas{
+        min-height: 900px;
+        height: 900px;
+    }
 }
