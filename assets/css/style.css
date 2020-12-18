@@ -646,6 +646,18 @@ select.classic:focus {
     margin-top: 20px;
 }
 
+/* Lista EDS */
+
+.fielo-iframe.iframe_eds.fielo-js-component iframe{
+    min-height: 2500px;
+}
+
+@media (min-width:1080px) {
+    .fielo-iframe.iframe_eds.fielo-js-component iframe{
+        min-height: 1900px;
+    }
+}
+
 
 /* Privada */
 
@@ -690,15 +702,17 @@ select.classic:focus {
     }
 }
 
-.fieloplt-shopping-cart-quantity-indicator{
-    margin-top: -7px;
-}
-
-.fieloplt-shopping-cart-quantity-indicator a.fielo-link{
-    color: #fff;
-}
-
-.fieloplt-shopping-cart-quantity-indicator a.fielo-link i{
-    color: #55565b;
-    font-size: 2.5rem;
+@media (min-width:1080px) {
+    .fieloplt-shopping-cart-quantity-indicator{
+        margin-top: -7px;
+    }
+    
+    .fieloplt-shopping-cart-quantity-indicator a.fielo-link{
+        color: #fff!important;
+    }
+    
+    .fieloplt-shopping-cart-quantity-indicator a.fielo-link i{
+        color: #55565b;
+        font-size: 2.5rem;
+    }
 }
