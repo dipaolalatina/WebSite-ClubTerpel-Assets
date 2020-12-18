@@ -688,6 +688,8 @@ select.classic:focus {
     min-width: 20px;
     min-height: 20px;
     padding: 3px 3px 3px;
+    background: #ff1e0a;
+    right: -10px;
 }
 
 @media (min-width:1080px) {
@@ -724,3 +726,58 @@ select.classic:focus {
     padding: 40px 0px;
 }
 
+.perfil__welcome-text{
+    color: #666666;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.perfil__name-text{
+    font-weight: 800;
+    color: #666;
+    font-size: 2rem;
+}
+
+.perfil__millas-text{
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 0;
+    color: #ff1e0a;
+}
+
+img.perfil__chancho-img{
+    width: 75%;
+    max-width: 240px;
+}
+
+h3.perfil__estado-text{
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: 800;
+    margin: 0;
+}
+
+span.perfil__estado-text{
+    font-size: 1.2rem;
+    color: #ff1e0a;
+    font-weight: 800;
+}
+
+@media (min-width:1080px) {
+    h3.perfil__estado-text{
+        font-size: 1.5rem;
+    }
+    
+    span.perfil__estado-text{
+        font-size: 1.5rem;
+    }
+}
+
+img.perfil__redenciones-img{
+    width: 100%;
+    max-width: 230px;
+}
+
+img.perfil__redenciones-moto-img{
+    width: 100%;
+}
