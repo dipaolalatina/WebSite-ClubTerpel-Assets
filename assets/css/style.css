@@ -848,3 +848,29 @@ img.perfil__redenciones-moto-img{
         height: 900px;
     }
 }
+
+
+@media (min-width:1400px) {
+    .ct__update-profile iframe.fielo-iframe__canvas{
+        min-height: 1000px;
+        height: 1000px;
+    }
+}
+
+div.formulario-terpel span form{
+    width: 50%;
+    margin: auto;
+}
+
+div.formulario-terpel span form div.label{
+    text-align: center;
+}
+
+div.formulario-terpel span form > div > div{
+    width: 50%;
+}
+
+div.formulario-terpel span form > div > div > input.input{
+    width: 100%;
+} 
+
