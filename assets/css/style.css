@@ -691,6 +691,11 @@ dt.ac-btn__title a{
     font-size: 1.1rem;
 }
 
+dd.ac-cuadro__txt{
+    padding: 20px;
+    background: #e9e9e9;
+}
+
 /* Lista EDS */
 
 .fielo-iframe.iframe_eds.fielo-js-component iframe{
