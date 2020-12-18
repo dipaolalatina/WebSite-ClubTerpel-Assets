@@ -55,7 +55,10 @@ html, body{
     font-family: 'Terpel Sans', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
-    background: #fff!important;
+}
+
+body.bg-grey-3 {
+    background: #f7f7f7;
 }
 
 
