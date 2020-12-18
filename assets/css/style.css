@@ -57,7 +57,7 @@ html, body{
     font-weight: 500;
 }
 
-body.bg-grey-3 {
+html.bg-grey-3 body{
     background: #f7f7f7;
 }
 
