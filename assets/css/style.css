@@ -902,6 +902,8 @@ div.form__update-data span form > div > div > input.input{
     width: 100%;
     border-radius: 10px;
     border: 0;
+    outline: 0;
+    padding: 10px 5px;
 }
 
 div.form__update-data span form > div > div > input.btn.btnRed{
