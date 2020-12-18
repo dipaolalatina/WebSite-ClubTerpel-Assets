@@ -689,3 +689,16 @@ select.classic:focus {
         padding-left: 650px;
     }
 }
+
+.fieloplt-shopping-cart-quantity-indicator{
+    margin-top: -7px;
+}
+
+.fieloplt-shopping-cart-quantity-indicator a.fielo-link{
+    color: #fff;
+}
+
+.fieloplt-shopping-cart-quantity-indicator a.fielo-link i{
+    color: #55565b;
+    font-size: 2.5rem;
+}
