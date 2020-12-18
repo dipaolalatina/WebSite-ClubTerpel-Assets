@@ -865,20 +865,26 @@ div.form__update-data span form{
 
 div.form__update-data span form div.label{
     text-align: center;
-    margin-bottom: 10px;
+    margin: 10px 0;
     font-size: 1.2rem;
     color: #666666;
     font-weight: 700;
     width: 100%;
 }
 
+div.form__update-data span form > div{
+    border: 0!important;
+}
+
 div.form__update-data span form > div > div{
     width: 45%;
+    margin: 0 auto;
 }
 
 div.form__update-data span form > div > div > input.input{
     width: 100%;
     border-radius: 10px;
+    border: 0;
 }
 
 div.form__update-data span form > div > div > input.btn.btnRed{
