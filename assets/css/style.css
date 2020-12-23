@@ -843,7 +843,7 @@ img.perfil__redenciones-moto-img{
     width: 100%;
 }
 
-.button11 .button111{
+.mi-pefil__tablas > div > div > input.button11.button111{
     border: 2px solid #ff1e0a;
     border-radius: 60px;
     padding: 7px 60px;
@@ -854,12 +854,12 @@ img.perfil__redenciones-moto-img{
     color: #ff1e0a; 
 }
 
-.button11:hover{
+.mi-pefil__tablas > div > div > input.button11:hover{
     background: #fff;
     color: #ff1e0a; 
 }
 
-.button21{
+.mi-pefil__tablas > div > div > input.button21{
     border: 2px solid #ff1e0a;
     border-radius: 60px;
     padding: 7px 60px;
