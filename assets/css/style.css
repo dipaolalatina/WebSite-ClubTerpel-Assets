@@ -808,7 +808,7 @@ dd.ac-cuadro__txt{
 
 img.perfil__chancho-img{
     width: 75%;
-    max-width: 240px;
+    max-width: 183px;
 }
 
 h3.perfil__estado-text{
@@ -842,6 +842,34 @@ img.perfil__redenciones-img{
 img.perfil__redenciones-moto-img{
     width: 100%;
 }
+
+.button11 .button111{
+    border: 2px solid #ff1e0a;
+    border-radius: 60px;
+    padding: 7px 60px;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    text-decoration: none;
+    background: #fff;
+    color: #ff1e0a; 
+}
+
+.button11:hover{
+    background: #fff;
+    color: #ff1e0a; 
+}
+
+.button21{
+    border: 2px solid #ff1e0a;
+    border-radius: 60px;
+    padding: 7px 60px;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    text-decoration: none;
+    background: #ff1e0a;
+    color: #fff;
+}
+
 
 /* Actualizar Datos */
 
