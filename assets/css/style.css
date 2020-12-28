@@ -867,7 +867,7 @@ img.perfil__redenciones-moto-img{
     color: #ff1e0a; 
 }
 
-.mi-pefil__tablas > div > div > input.button.button1{
+.mi-pefil__tablas > div > div > div > input.button.button1{
     border: 2px solid #ff1e0a;
     border-radius: 60px;
     padding: 7px 60px;
@@ -881,12 +881,12 @@ img.perfil__redenciones-moto-img{
 }
 
 @media (min-width:1080px) {
-    .mi-pefil__tablas > div > div > input.button.button1{
+    .mi-pefil__tablas > div > div > div > input.button.button1{
         margin-left: 60px;
     }
 }
 
-.mi-pefil__tablas > div > div > input.button:hover{
+.mi-pefil__tablas > div > div > div > input.button:hover{
     background: #fff;
     color: #ff1e0a; 
 }
@@ -909,7 +909,7 @@ img.perfil__redenciones-moto-img{
     }
 }
 
-.mi-pefil__tablas > div > div > input.button2{
+.mi-pefil__tablas > div > div > div > input.button2{
     border: 2px solid #ff1e0a;
     border-radius: 60px;
     padding: 7px 60px;
@@ -922,7 +922,7 @@ img.perfil__redenciones-moto-img{
 }
 
 @media (min-width:1080px) {
-    .mi-pefil__tablas > div > div > input.button2{
+    .mi-pefil__tablas > div > div > div > input.button2{
         margin-left: 60px;
     }
 }
