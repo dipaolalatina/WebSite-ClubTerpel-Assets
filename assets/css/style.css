@@ -1326,7 +1326,7 @@ div.fielo-field--is-Name > span.fielo-field__value > a.fielo-link__to-detail{
 
 div.fielo-field--is-F_Nombre2__c > span.fielo-field__value{
     color: #ff1e0a;
-    font-size: 2.2rem;
+    font-size: 1.2rem;
     font-weight: 900;
 }
 
@@ -1352,8 +1352,15 @@ div.fielo-field--is-FieloCMSPLT_AddtoCart > span.fielo-field__label{
 }
 
 div.fieloplt-add-to-cart{
-    margin: 34px auto;
-    width: 100%;
+    margin: 45px auto;
+    width: 72%;
+}
+
+@media (min-width:1080px) {
+    div.fieloplt-add-to-cart{
+        margin: 24px auto;
+        width: 100%;
+    }
 }
 
 div.fieloplt-add-to-cart > button.fielo-button__submit{
