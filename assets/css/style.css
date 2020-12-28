@@ -1167,7 +1167,7 @@ div.form__update-data > span > form > div > select.input:focus {
 
 @media (min-width:1400px) {
     .banner-redime{        
-        min-height: 650px;
+        min-height: 500px;
     }
 }
 
@@ -1225,6 +1225,7 @@ h1.redime__header-section{
 .redime__category-box img{
     height: 200px;
     margin: 25px auto;
+    max-width: 200px;
 }
 
 h2.redime__category-name{
