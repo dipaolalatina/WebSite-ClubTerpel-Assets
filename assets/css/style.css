@@ -1100,13 +1100,19 @@ div.form__update-data span form > div > select.input:focus {
     float: left;
     margin: 3px 12px;
     padding: 5px 35px 5px 15px;
-    border-radius: 10px;
+    border-radius: 10px!important;
     color: #838383;
     border:0;
     background-color: #fff;
     background-image: url(../images/check-1.png);
     background-repeat: no-repeat;
-    background-position: 88% 50%;
+    background-position: 94% 50%;
+}
+
+.tipoVehiculo__btn:hover{
+    color: #838383;
+    background-color: #fff;
+    background-image: url(../images/check-1.png);
 }
 
 .tipoVehiculo__btn.active{
