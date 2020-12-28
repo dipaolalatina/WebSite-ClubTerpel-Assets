@@ -1091,6 +1091,12 @@ div.form__update-data span form > div > select.input:focus {
     outline: 0;
 }
 
+.tipoVehiculo__btn input{
+    position: absolute;
+    clip: rect(0,0,0,0);
+    pointer-events: none;
+}
+
 /*Redime tus Millas*/
 
 .banner-redime{
