@@ -1313,13 +1313,13 @@ h2.redime__category-name{
     text-align: center;
 }
 
-div.fielo-field--is-Name > div.fielo-field__value > a.fielo-link{
+div.fielo-field--is-Name > span.fielo-field__value > a.fielo-link__to-detail{
     color: #797979;
     text-decoration: none;
     font-size: 1.2rem;
 }
 
-div.fielo-field--is-F_Nombre2__c > div.fielo-field__value{
+div.fielo-field--is-F_Nombre2__c > span.fielo-field__value{
     color: #ff1e0a;
     font-size: 2.2rem;
     font-weight: 900;
