@@ -1093,13 +1093,26 @@ div.form__update-data span form > div > select.input:focus {
 
 .tipoVehiculo__btn-group{
     display: inline-block;
-    width: 100%;
+    width: 100%!important;;
 }
 
 .tipoVehiculo__btn{
     float: left;
     margin: 3px 12px;
-    padding: 5px 25px;
+    padding: 5px 35px 5px 15px;
+    border-radius: 10px;
+    color: #838383;
+    border:0;
+    background-color: #fff;
+    background-image: url(../images/check-1.png);
+    background-repeat: no-repeat;
+    background-position: 88% 50%;
+}
+
+.tipoVehiculo__btn.active{
+    color: #fff;
+    background-color: #ff1e0a;
+    background-image: url(../images/check-2.png);
 }
 
 .tipoVehiculo__btn input{
@@ -1107,8 +1120,6 @@ div.form__update-data span form > div > select.input:focus {
     clip: rect(0,0,0,0);
     pointer-events: none;
 }
-
-
 
 /*Redime tus Millas*/
 
