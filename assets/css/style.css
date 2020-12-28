@@ -1321,7 +1321,7 @@ h2.redime__category-name{
 div.fielo-field--is-Name > span.fielo-field__value > a.fielo-link__to-detail{
     color: #797979;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 div.fielo-field--is-F_Nombre2__c > span.fielo-field__value{
@@ -1329,3 +1329,52 @@ div.fielo-field--is-F_Nombre2__c > span.fielo-field__value{
     font-size: 2.2rem;
     font-weight: 900;
 }
+
+div.fielo-field--is-FieloPLT__Points__c{
+    text-align: center;
+}
+
+div.fielo-field--is-FieloPLT__Points__c > span.fielo-field__label, div.fielo-field--is-FieloPLT__Points__c > span.fielo-field__value{
+    font-size: 1.5rem;
+    color: #797979;
+}
+
+div.fielo-field--is-FieloPLT__Points__c > span.fielo-field__value{
+    font-weight: 800;
+}
+
+div.fielo-field--is-F_VerMas__c{
+    display: none;
+}
+
+div.fielo-field--is-FieloCMSPLT_AddtoCart > span.fielo-field__label{
+    display: none;
+}
+
+div.fieloplt-add-to-cart{
+    margin: 34px auto;
+    width: 100%;
+}
+
+div.fieloplt-add-to-cart > button.fielo-button__submit{
+    border: 0;
+    background: #ff1e0a;
+    color: #fff;
+    padding: 7px 20px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    border-radius: 30px;
+}
+
+div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
+    background: #fff;
+    border: 0;
+    border-radius: 10px;
+    padding: 7px;
+    box-shadow: 0px 0px 15px grey;
+}
+
+.fieloplt-add-to-cart__quantity-add, .fieloplt-add-to-cart__quantity-remove{
+    background: #ff1e0a!important;
+}
+
