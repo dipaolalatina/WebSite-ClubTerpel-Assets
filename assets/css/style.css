@@ -1091,11 +1091,22 @@ div.form__update-data span form > div > select.input:focus {
     outline: 0;
 }
 
+.tipoVehiculo__btn-group{
+    display: block;
+}
+
+.tipoVehiculo__btn{
+    float: left;
+    margin: 0 3px;
+}
+
 .tipoVehiculo__btn input{
     position: absolute;
     clip: rect(0,0,0,0);
     pointer-events: none;
 }
+
+
 
 /*Redime tus Millas*/
 
