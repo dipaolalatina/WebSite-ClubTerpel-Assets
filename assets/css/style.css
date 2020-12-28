@@ -1300,7 +1300,7 @@ h2.redime__category-name{
     
 }
 
-.fielo-field--is-Name > div.fielo-field__label, .fielo-field--is-F_Nombre2__c > div.fielo-field__label{
+.fielo-field--is-Name > span.fielo-field__label, .fielo-field--is-F_Nombre2__c > span.fielo-field__label{
     display: none;
 }
 
