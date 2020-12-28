@@ -1092,7 +1092,8 @@ div.form__update-data span form > div > select.input:focus {
 }
 
 .tipoVehiculo__btn-group{
-    display: block;
+    display: inline-block;
+    width: 100%;
 }
 
 .tipoVehiculo__btn{
