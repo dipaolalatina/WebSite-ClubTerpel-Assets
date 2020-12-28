@@ -1003,7 +1003,7 @@ div.form__update-data span form > div{
 }
 
 div.form__update-data span form > div > div{
-    width: 45%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -1042,7 +1042,7 @@ div.form__update-data span form > div > div > input.btn.btnRed{
     }
 }
 
-div.form__update-data span form > div > input.btn.btnRed{
+div.form__update-data > span > form > div > input.btn.btnRed{
     border: 0;
     background: #ff1e0a;
     width: 50%;
@@ -1055,7 +1055,7 @@ div.form__update-data span form > div > input.btn.btnRed{
 
 }
 
-div.form__update-data span form > div > select.input{
+div.form__update-data > span > form > div > select.input{
     background-image: linear-gradient(45deg, transparent 50%, #ff1e0a 50%), linear-gradient(135deg, #ff1e0a 50%, transparent 50%), linear-gradient(to right, #fff, #fff);
     background-position: calc(100% - 25px) calc(1em - 0px), calc(100% - 15px) calc(1em - 0px), 100% 0;
     background-size: 10px 10px, 10px 10px, 3em 3em;
@@ -1074,7 +1074,7 @@ div.form__update-data span form > div > select.input{
     outline: none;
 }
 
-div.form__update-data span form > div > select.input:focus {
+div.form__update-data > span > form > div > select.input:focus {
     background-image:
     linear-gradient(45deg, #ff1e0a 50%, transparent 50%),
     linear-gradient(135deg, transparent 50%, #ff1e0a 50%),
@@ -1090,6 +1090,8 @@ div.form__update-data span form > div > select.input:focus {
     background-repeat: no-repeat;
     outline: 0;
 }
+
+
 
 .tipoVehiculo__btn-group{
     display: inline-block;
