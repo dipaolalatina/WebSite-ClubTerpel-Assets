@@ -867,6 +867,33 @@ img.perfil__redenciones-moto-img{
     color: #ff1e0a; 
 }
 
+
+.mi-pefil__tablas > div > div > input.button.button1{
+    border: 2px solid #ff1e0a;
+    border-radius: 60px;
+    padding: 7px 60px;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    text-decoration: none;
+    background: #fff;
+    color: #ff1e0a;
+    outline: none;
+    margin-left: 60px;
+}
+
+@media (min-width:1080px) {
+    .mi-pefil__tablas > div > div > input.button.button1{
+        margin-left: 60px;
+    }
+}
+
+.mi-pefil__tablas > div > div > input.button:hover{
+    background: #fff;
+    color: #ff1e0a; 
+}
+
+
+
 .mi-pefil__tablas > div > div > input.button21{
     border: 2px solid #ff1e0a;
     border-radius: 60px;
@@ -885,6 +912,24 @@ img.perfil__redenciones-moto-img{
     }
 }
 
+.mi-pefil__tablas > div > div > input.button2{
+    border: 2px solid #ff1e0a;
+    border-radius: 60px;
+    padding: 7px 60px;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    text-decoration: none;
+    background: #ff1e0a;
+    color: #fff;
+    outline: none;
+}
+
+@media (min-width:1080px) {
+    .mi-pefil__tablas > div > div > input.button2{
+        margin-left: 60px;
+    }
+}
+
 div#table-scroll1{
     background: #fff;
     padding: 20px;
@@ -894,6 +939,14 @@ div#table-scroll1{
 div#table-scroll1 > div > table{
     font-family: 'Terpel Sans', Arial, sans-serif;
     background: transparent;
+}
+
+div#table-scroll1 > div > table > tbody{
+    border-bottom: 1px solid #b2b2b2;
+}
+
+div#table-scroll1 > div > table > tbody#tbody1{
+    border-bottom: 0;
 }
 
 div#table-scroll1 > div > table > tbody > tr > td > b{
