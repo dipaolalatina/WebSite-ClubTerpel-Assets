@@ -1300,6 +1300,11 @@ h2.redime__category-name{
     
 }
 
+.catalogos__main-content > nav..fielo-paginator{
+    font-family: 'Terpel Sans', Arial, sans-serif;
+    margin: 50px auto;
+}
+
 .fielo-field--is-Name > span.fielo-field__label, .fielo-field--is-F_Nombre2__c > span.fielo-field__label{
     display: none;
 }
