@@ -851,7 +851,15 @@ img.perfil__redenciones-moto-img{
     letter-spacing: .08em;
     text-decoration: none;
     background: #fff;
-    color: #ff1e0a; 
+    color: #ff1e0a;
+    outline: none;
+    margin-left: 60px;
+}
+
+@media (min-width:1080px) {
+    .mi-pefil__tablas > div > div > input.button11.button111{
+        margin-left: 60px;
+    }
 }
 
 .mi-pefil__tablas > div > div > input.button11:hover{
@@ -868,8 +876,14 @@ img.perfil__redenciones-moto-img{
     text-decoration: none;
     background: #ff1e0a;
     color: #fff;
+    outline: none;
 }
 
+@media (min-width:1080px) {
+    .mi-pefil__tablas > div > div > input.button21{
+        margin-left: 60px;
+    }
+}
 
 /* Actualizar Datos */
 

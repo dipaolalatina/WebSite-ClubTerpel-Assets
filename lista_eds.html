@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Club Terpel un mundo de beneficios</title>
+
+        <link rel="stylesheet" type="text/css" href="resources/assets/css/main.css">
+        <link rel="stylesheet" href="resources/assets/css/jquery.bxslider.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script src="resources/assets/js/clasie.js"></script>
+        <script src="resources/assets/js/jquery.bxslider.js"></script>
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+        <script type='text/javascript' src="sheetsee.js"></script>
+    </head>
+
+    <body>
+
+        <section class="ct-pq-body">
+          <div class="search__form">
+            <input id="fullTableFilter" type="text" placeholder="filtrar por.."></input>
+            <a class="clear">Borrar</a>
+          </div>
+            <div id="fullTable">Cargando Estaciones...</div>
+            <p class="center">Listado actualizado: 03 de Diciembre 2020</p>
+        </section>
+    <script id="fullTable_template" type="text/html">
+        <table width="100%">
+            <tr>
+                <th class="tHeader">EDS</th>
+                <th class="tHeader">Ciudad</th>
+                <th class="tHeader">Dirección</th>
+                <th class="tHeader">Tienda altoque</th>
+            </tr>
+            {{#rows}}
+            <tr>
+                <td>{{Nombre_eds}}</td>
+                <td>{{Ciudad}}</td>
+                <td>{{Direccion}}</td>
+                <td>{{#Altoque}}<img src="check-redencion.png" width="30" style="display: block; margin: 0 auto;">{{/Altoque}}</td>
+            </tr>
+            {{/rows}}
+        </table>
+    </script>
+
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            var URL = "1A9VMmzDhmszjWr_rrrOmNgimlYoaqrh1yv53Of4ug6s"
+            Tabletop.init({key: URL, callback: showInfo, simpleSheet: true})
+        })
+
+        function showInfo (data) {
+            var tableOptions = {
+                "data": data,
+                "pagination": 30,
+                "tableDiv": "#fullTable",
+                "filterDiv": "#fullTableFilter"
+            }
+            Sheetsee.makeTable(tableOptions)
+            Sheetsee.initiateTableFilter(tableOptions)
+        }
+    </script>
+
+    </body>
+
+</html>
