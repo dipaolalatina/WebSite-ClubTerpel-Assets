@@ -1296,11 +1296,11 @@ h2.redime__category-name{
     }
 }
 
-.catalogos__main-content > div > div > div > div.fielo-record > div > span > img.fielo-image {
+/* .catalogos__main-content > div > div > div > div.fielo-record > div > span > img.fielo-image {
     
-}
+} */
 
-.catalogos__main-content > nav..fielo-paginator{
+.catalogos__main-content > nav.fielo-paginator{
     font-family: 'Terpel Sans', Arial, sans-serif;
     margin: 50px auto;
 }
