@@ -927,26 +927,33 @@ img.perfil__redenciones-moto-img{
     }
 }
 
+div#table-scroll{
+    background: #e9e9e9;
+}
+
 div#table-scroll1{
     background: #fff;
+}
+
+div#table-scroll, div#table-scroll1{
     padding: 20px;
     border-radius: 30px;
 }
 
-div#table-scroll1 > div > table{
+div#table-scroll > div > table, div#table-scroll1 > div > table{
     font-family: 'Terpel Sans', Arial, sans-serif;
     background: transparent;
 }
 
-div#table-scroll1 > div > table > tbody{
+div#table-scroll > div > table > tbody, div#table-scroll1 > div > table > tbody{
     border-bottom: 1px solid #b2b2b2;
 }
 
-div#table-scroll1 > div > table > tbody#tbody1{
+div#table-scroll > div > table > tbody#tbody1, div#table-scroll1 > div > table > tbody#tbody1{
     border-bottom: 0;
 }
 
-div#table-scroll1 > div > table > tbody > tr > td > b{
+div#table-scroll > div > table > tbody > tr > td > b > b, div#table-scroll1 > div > table > tbody > tr > td > b >b{
     font-weight: 500;
     color: #ff1e0a;
 }
