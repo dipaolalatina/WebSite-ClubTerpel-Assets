@@ -885,11 +885,21 @@ img.perfil__redenciones-moto-img{
     }
 }
 
-#table-scroll1 table{
-    font-family: 'Terpel Sans', Arial, sans-serif;
+div#table-scroll1{
+    background: #fff;
+    padding: 20px;
+    border-radius: 30px;
 }
 
+div#table-scroll1 > div > table{
+    font-family: 'Terpel Sans', Arial, sans-serif;
+    background: transparent;
+}
 
+div#table-scroll1 > div > table > tbody > tr > td > b{
+    font-weight: 500;
+    color: #ff1e0a;
+}
 
 /* Actualizar Datos */
 
