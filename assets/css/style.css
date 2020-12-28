@@ -65,7 +65,7 @@ table, tr, th, td{
     font-family: 'Terpel Sans', Arial, sans-serif;
 }
 
-table.htmlDetailElementTable > td, table.htmlDetailElementTable >  th{
+table.htmlDetailElementTable > tbody > td, table.htmlDetailElementTable > tbody > th{
     padding: 0px!important;
 }
 
