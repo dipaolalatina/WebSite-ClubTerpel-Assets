@@ -1934,23 +1934,21 @@ h2.cart__header-subtext{
 }
 
 .cart__success-main .foot {
-    display: inline-block;
-    margin: 20px;
-    border-radius: 30px;
-    color: #ff1e0a;
+	margin: 20px;
     padding: 10px 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: .08rem;
-    border: 2px solid #ff1e0a;
+    
 }
 
 .cart__success-main .foot a {
 	display: inline-block;
-	margin: 20px;
-	border-radius: 20px;
-	color: #fff;
-	padding: 10px 20px
+    margin: 20px;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .08rem;
+    border: 2px solid #ff1e0a;
 }
 
 .cart__success-main .foot .volver_catalogo {
