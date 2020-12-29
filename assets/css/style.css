@@ -2115,3 +2115,19 @@ div.cart-success__txt{
     text-transform: uppercase;
     letter-spacing: .08em;
 }
+
+/* Coming Soon */
+
+img.coming-soon__logo{
+    width: 33%;
+}
+
+@media (min-width:1080px) {
+    img.coming-soon__logo{
+        width: 15%;
+    }
+}
+
+h1.coming-soon__txt{
+    margin-top: 30px;
+}
