@@ -1416,7 +1416,8 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
 	font-size: 11px;
 	padding: 7px 0 7px 13px;
 	text-align: center;
-	width: 60px
+    width: 60px;
+    outline: none;
 }
 
 .cart__background .fieloplt-shopping-cart .fielo-record .content-block .landing .post .fielo-field--is-F_Nombre2__c,
@@ -1529,6 +1530,13 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
     width: 45%;
 }
 
+@media (min-width:1400px) {
+    .cart__background .fieloplt-shopping-cart .fielo-record .content-block .actions .cantidad{
+        margin: 6px auto;
+        width: 38%;
+    }
+}
+
 .cart__background .no-items .text {
 	padding: 40px;
 	text-align: center;
@@ -1538,8 +1546,15 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
 }
 
 .cart__background .foot-bar {
-	width: 900px;
-	margin: 30px auto
+	width: 100%;
+	margin: 10px auto;
+}
+
+@media (min-width:1080px) {
+    .cart__background .foot-bar {
+        width: 900px;
+        margin: 30px auto
+    }
 }
 
 .cart__background .foot-bar button {
@@ -1557,14 +1572,18 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
 }
 
 .cart__background .foot-bar .resumen {
-	text-align: right;
+	text-align: center;
 	font-family: 'Terpel Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 22px
 }
 
+.cart__background .foot-bar .boton-volver{
+    text-align: center;
+}
+
 .cart__background .foot-bar .boton-finalizar {
-	text-align: right
+	text-align: center;
 }
 
 .cart__background .foot-bar .boton-finalizar button {
