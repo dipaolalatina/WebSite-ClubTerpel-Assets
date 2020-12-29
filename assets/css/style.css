@@ -1693,3 +1693,182 @@ h2.cart__header-subtext{
     color: #666666;
     font-size: 1.5rem;
 }
+
+/* Redención OK */
+
+.cart__success-main .fielo-main {
+	background: #fff;
+	background: -moz-linear-gradient(top, #fff 0, #e3e3e3 76%, #e3e3e3 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0, #fff), color-stop(76%, #e3e3e3), color-stop(100%, #e3e3e3));
+	background: -webkit-linear-gradient(top, #fff 0, #e3e3e3 76%, #e3e3e3 100%);
+	background: -o-linear-gradient(top, #fff 0, #e3e3e3 76%, #e3e3e3 100%);
+	background: -ms-linear-gradient(top, #fff 0, #e3e3e3 76%, #e3e3e3 100%);
+	background: linear-gradient(to bottom, #fff 0, #e3e3e3 76%, #e3e3e3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e3e3e3', GradientType=0)
+}
+
+.cart__success-main .title_content {
+	font-family: 'Alright Sans';
+	font-size: 24px;
+	font-weight: 500;
+	text-transform: uppercase;
+	max-width: 900px;
+	margin: 30px auto;
+	overflow: hidden
+}
+
+.cart__success-main .title_content .icon {
+	float: left;
+	width: 80px;
+	margin-right: 20px
+}
+
+.cart__success-main .title_content .text {
+	float: left
+}
+
+.cart__success-main .fielo-record-set__template {
+	border-bottom: 1px solid #d2d7d7
+}
+
+.cart__success-main .fielo-record-set__template .fielo-record {
+	max-width: 900px;
+	margin: 0 auto
+}
+
+.cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-ViewImage {
+	float: left;
+	width: 120px;
+	min-width: 120px;
+	min-height: 120px;
+	margin-right: 40px
+}
+
+.cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-F_Producto__c {
+	float: left;
+	width: 400px;
+	color: #d52028;
+	font-family: 'Alright Sans';
+	font-weight: 700;
+	font-size: 16px;
+	margin-top: 20px;
+	text-transform: uppercase
+}
+
+.cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-F_ProductoNombre2__c {
+	float: left;
+	width: 400px;
+	color: #4c5051;
+	font-family: 'Alright Sans';
+	font-weight: 700;
+	font-size: 16px;
+	text-transform: uppercase
+}
+
+.cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-F_ProductoDescripcion__c {
+	float: left;
+	width: 400px;
+	margin: 10px 0;
+	color: #4c5051;
+	font-size: 12px
+}
+
+.cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-F_CodigoBono__c {
+	float: left;
+	width: 200px;
+	color: #4c5051;
+	font-size: 10px;
+	text-align: center;
+	margin-top: -30px
+}
+
+.cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-FieloPLT__UniqueCode__c {
+	float: left;
+	width: 200px;
+	color: #4c5051;
+	font-family: 'Alright Sans';
+	font-weight: 700;
+	text-align: center;
+	margin-top: -17px
+}
+
+.cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-VoucherLink__c {
+	float: left;
+	width: 50px;
+	margin-top: -30px
+}
+
+.cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-VoucherLink__c a {
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: url(../images/btn-imprimir.png);
+	background-size: 100%;
+	color: transparent;
+	font-size: 1px
+}
+
+.cart__error-main .message,
+.cart__success-main .foot {
+	text-align: center;
+	font-family: 'Alright Sans';
+	font-size: 12px
+}
+
+.cart__success-main .foot {
+	max-width: 900px;
+	margin: 20px auto;
+	color: #afb3b5;
+	font-weight: 700
+}
+
+.cart__success-main .foot a {
+	display: inline-block;
+	margin: 20px;
+	border-radius: 20px;
+	color: #fff;
+	padding: 10px 20px
+}
+
+.cart__success-main .foot .volver_catalogo {
+	background-color: #afb3b5
+}
+
+.cart__success-main .foot .volver_home {
+	background-color: #d52028
+}
+
+
+/* Redención Error */
+
+.cart__error-main body {
+	background-color: #4c5051
+}
+
+.cart__error-main .iframe-login {
+	margin-top: 0
+}
+
+.cart__error-main .message {
+	width: 500px;
+	margin: 90px auto;
+	color: #fff
+}
+
+.cart__error-main .message .title {
+	font-size: 22px;
+	font-weight: 700;
+	margin: 20px
+}
+
+.cart__error-main .message .boton-amarillo {
+	display: block;
+	margin: 20px auto;
+	width: 130px;
+	background-color: #fcb015;
+	color: #4c5051;
+	font-size: 12px;
+	font-weight: 700;
+	border-radius: 20px;
+	padding: 10px 20px
+}
