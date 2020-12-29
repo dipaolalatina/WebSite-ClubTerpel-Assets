@@ -1401,3 +1401,8 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
     background: #ff1e0a!important;
 }
 
+/* Carro */
+
+.cart__background > body{
+    background: #e8e8e8!important;
+}
