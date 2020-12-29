@@ -2072,3 +2072,46 @@ div.cart-success__txt{
     margin-right: 5px;
     width: auto;
 }
+
+.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Volver__c{
+    display: block;
+    margin-top: 66px;
+    width: auto!important;
+    margin-left: 10px;
+    border-radius: 60px;
+    padding: 7px 30px;
+    color: #ff1e0a;
+    font-family: 'Terpel Sans', Arial, sans-serif!important;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: transparent;
+    border: 2px solid #ff1e0a;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    text-decoration: none;
+}
+
+.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Volver__c a{
+    text-decoration: none;
+    color: #ff1e0a;
+}
+
+.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Volver__c a:visited{
+    color: #ff1e0a;
+}
+
+.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-FieloCMSPLT_AddtoCart .fielo-button__submit{
+    display: block;
+    width: auto!important;
+    margin-left: 10px;
+    border-radius: 60px;
+    padding: 7px 30px;
+    color: #fff;
+    font-family: 'Terpel Sans', Arial, sans-serif!important;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: #ff1e0a;
+    border: 2px solid #ff1e0a;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+}
