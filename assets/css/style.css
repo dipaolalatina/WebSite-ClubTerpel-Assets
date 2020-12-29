@@ -2148,6 +2148,16 @@ h1.coming-soon__txt{
 
 /* Promociones Private */
 
+.promo__form-main{
+    padding: 0px 20px;
+}
+
+@media (min-width:1080px) {
+    .promo__form-main{
+        padding: 0;
+    }
+}
+
 .promo__form-main > div.apexp > div > div > div > div.pbSubheader.brandTertiaryBgr.tertiaryPalette{
     display: none
 }
@@ -2157,10 +2167,26 @@ h1.coming-soon__txt{
     text-align: left;
     color: #ff1e0a;
     font-weight: 800;
+    margin-bottom: -30px;
+    margin-top: 20px;
 }
 
-.promo__form-main > div.apexp > div > div.pbBody > div > div.pbSubsection > table.detailList > tbody > tr > td > span > form > div > span > select{
-    width: 100%
+.promo__form-main > div.apexp > div > div.pbBody > div > div.pbSubsection > table.detailList > tbody > tr > td > span > form > div > span > select,
+.promo__form-main > div.apexp > div > div.pbBody > div > div.pbSubsection > table.detailList > tbody > tr > td > span > form > div > span > select[text]{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px 8px;
+    border-radius: 10px;
 }
 
-
+.btn.btnRed{
+    color: #fff;
+    border: 2px solid #ff1e0a;
+    border-radius: 60px;
+    padding: 7px 60px;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    text-decoration: none;
+    background: #ff1e0a;
+    margin-top: 20px;
+}
