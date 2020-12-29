@@ -2152,3 +2152,15 @@ h1.coming-soon__txt{
     display: none
 }
 
+.promo__h-subtext{
+    font-size: 2rem;
+    text-align: left;
+    color: #ff1e0a;
+    font-weight: 800;
+}
+
+.promo__form-main > div.apexp > div > div > div > div.pbSubheader > table > tbody > tr > td > span > form > div > span > select{
+    width: 100%
+}
+
+
