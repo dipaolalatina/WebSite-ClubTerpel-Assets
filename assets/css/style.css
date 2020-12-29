@@ -1407,9 +1407,7 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
     background: #e8e8e8!important;
 }
 
-.cart__background .fieloplt-shopping-cart .fielo-record .content-block .actions .cantidad input,
-.inputQuantity,
-.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-FieloCMSPLT_AddtoCart input {
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .actions .cantidad input, .inputQuantity{
 	border: 1px solid #ff1e0a;
 	border-radius: 20px;
 	background-color: #efefef;
@@ -1741,8 +1739,7 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
 
 .cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Nombre2__c,
 .reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
-.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Nombre2__c,
-.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name {
+.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Nombre2__c{
 	font-family: 'Terpel Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 23px;
@@ -1750,10 +1747,7 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
 }
 
 .cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Nombre2__c,
-.cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name,
-.reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
-.reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-Name,
-.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name {
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name{
 	margin-top: 30px;
 	color: #ff1e0a;
 }
@@ -2013,4 +2007,67 @@ div.cart-success__txt{
 	font-weight: 700;
 	border-radius: 20px;
 	padding: 10px 20px
+}
+
+/* Detalle Producto */
+
+.reward_detail > body {
+    background: #e8e8e8!important;
+}
+
+.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-FieloCMSPLT_AddtoCart input {
+	border: 1px solid #ff1e0a;
+	border-radius: 20px;
+	background-color: #efefef;
+	font-size: 11px;
+	padding: 7px 0 7px 13px;
+	text-align: center;
+    width: 60px;
+    outline: none;
+}
+
+.reward_detail .reward .fieloplt-reward-detail{
+    width: 1000px;
+}
+
+.reward_detail .reward .back_btn, .reward_detail .reward{
+    background: transparent;
+}
+
+.reward_detail .reward{
+    border: 0;
+}
+
+.reward > div > div.fielo-field--is-FieloCMSPLT_AddtoCart > div.fielo-field__label{
+    display: none;
+}
+
+.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-ViewImage img{
+    margin-top: -50px;
+    width: 75%;
+}
+
+.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name {
+	text-transform: none;
+    color: #666666;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c{
+    text-transform: none;
+    font-weight: 900;
+    color: #ff1e0a;
+    font-size: 2.5rem;
+}
+.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_MillasLM__c, 
+.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-FieloPLT__Points__c {
+    font-family: 'Terpel Sans', Arial, sans-serif!important;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #ff1e0a;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: auto;
 }
