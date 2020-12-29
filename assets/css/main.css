@@ -71,10 +71,13 @@
 /**
  * Remove the margin in all browsers (opinionated).
  */
-body {
+
+ body {
+  color: #58595B;
   margin: 0;
   font-family: 'Terpel Sans', Arial, sans-serif;
- }
+  font-size: 16px;
+  min-height: 100%; }
 
 
  #Pagination {
@@ -357,7 +360,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif;
+  font-family: 'Terpel Sans', Arial, sans-serif;
   /* 1 */
   font-size: 100%;
   /* 1 */
@@ -542,7 +545,7 @@ template {
 [hidden] {
   display: none; }
 
-@font-face {
+/* @font-face {
   font-family: 'alright_sansblack';
   src: url("https://terpel--qa--c.cs43.visual.force.com/resource/1504682403000/webfonts/fonts/alrightsans-black-v3-webfont.eot");
   src: url("https://terpel--qa--c.cs43.visual.force.com/resource/1504682403000/webfonts/fonts/alrightsans-black-v3-webfont.eot?#iefix") format("embedded-opentype"), url("https://terpel--qa--c.cs43.visual.force.com/resource/1504682403000/webfonts/fonts/alrightsans-black-v3-webfont.woff2") format("woff2"), url("https://terpel--qa--c.cs43.visual.force.com/resource/1504682403000/webfonts/fonts/alrightsans-black-v3-webfont.woff") format("woff"), url("https://terpel--qa--c.cs43.visual.force.com/resource/1504682403000/webfonts/fonts/alrightsans-black-v3-webfont.ttf") format("truetype"), url("https://terpel--qa--c.cs43.visual.force.com/resource/1504682403000/webfonts/fonts/alrightsans-black-v3-webfont.svg#alright_sansblack") format("svg");
@@ -610,17 +613,11 @@ template {
   src: url("https://terpel--qa--c.cs43.visual.force.com/resource/1504682403000/webfonts/fonts/alrightsans-ultra-v3-webfont.eot");
   src: url("https://terpel--qa--c.cs43.visual.force.com/resource/1504682403000/webfonts/fonts/alrightsans-ultra-v3-webfont.eot?#iefix") format("embedded-opentype"), url("https://terpel--qa--c.cs43.visual.force.com/resource/1504682403000/webfonts/fonts/alrightsans-ultra-v3-webfont.woff2") format("woff2"), url("https://terpel--qa--c.cs43.visual.force.com/resource/1504682403000/webfonts/fonts/alrightsans-ultra-v3-webfont.woff") format("woff"), url("https://terpel--qa--c.cs43.visual.force.com/resource/1504682403000/webfonts/fonts/alrightsans-ultra-v3-webfont.ttf") format("truetype"), url("https://terpel--qa--c.cs43.visual.force.com/resource/1504682403000/webfonts/fonts/alrightsans-ultra-v3-webfont.svg#alright_sansultra") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal; } */
 
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
-
-body {
-  color: #58595B;
-  font-family: 'alright_sansregular';
-  font-size: 16px;
-  min-height: 100%; }
 
 ul {
   list-style: none;
@@ -639,7 +636,7 @@ p {
   border-radius: 25px;
   color: #fff;
   display: block;
-  font-family: 'alright_sansmedium';
+  font-family: 'Terpel Sans', Arial, sans-serif;
   font-size: .9em;
   margin: 18px 0 0 0;
   padding: 10px 40px;
@@ -650,7 +647,7 @@ p {
   border-radius: 25px;
   color: #ff1e0a;
   display: block;
-  font-family: 'alright_sansmedium';
+  font-family: 'Terpel Sans', Arial, sans-serif;
   font-size: .9em;
   margin: 18px 0 0 0;
   padding: 10px 40px;
@@ -809,7 +806,7 @@ header {
         border-left: 1px solid #fff; }
         header nav .ct-nav-2 .ct-wrapper-nav li a {
           color: #58595B;
-          font-family: 'alright_sansregular';
+          font-family: 'Terpel Sans', Arial, sans-serif;
           font-size: .8em;
           padding: 0 25px;
           text-transform: uppercase; }
@@ -855,7 +852,7 @@ header {
     appearance: none;
     cursor: pointer;
     text-transform: uppercase;
-    font-family: 'alright_sansultra'; }
+    font-family: 'Terpel Sans', Arial, sans-serif; }
   /**
     * Close button resets.
     */
@@ -1049,13 +1046,13 @@ header {
             border-left: none; }
             header nav .ct-nav-2 .ct-wrapper-nav li a {
               color: #58595B;
-              font-family: 'alright_sansregular';
+              font-family: 'Terpel Sans', Arial, sans-serif;
               font-size: .8em;
               padding: 0 20px;
               text-transform: uppercase; } }
 
 h2 {
-  font-family: 'alright_sansblack';
+  font-family: 'Terpel Sans', Arial, sans-serif;
   font-size: 2em;
   color: #58595B;
   padding-left: 55px; }
@@ -1095,7 +1092,7 @@ h2 {
     margin: 0 auto; }
     .ct-jumbotron .ct-section-1 .ct-title-1 {
       color: #58595B;
-      font-family: 'alright_sansblack';
+      font-family: 'Terpel Sans', Arial, sans-serif;
       font-size: 2em;
       line-height: .9em;
       width: 50%;
@@ -1561,7 +1558,7 @@ h2 {
           width: 300px; }
           .ct-section-6 .wrapper-section-6 .ct-convertion .ct-valr .valr .unid {
             color: #ff1e0a;
-            font-family: 'alright_sansblack';
+            font-family: 'Terpel Sans', Arial, sans-serif;
             font-size: 1.8em; }
           .ct-section-6 .wrapper-section-6 .ct-convertion .ct-valr .valr p {
             text-align: center; }
@@ -1772,7 +1769,7 @@ h2 {
       margin: 0 auto; }
       .ct-jumbotron .ct-section-1 .ct-title-1 {
         color: #58595B;
-        font-family: 'alright_sansblack';
+        font-family: 'Terpel Sans', Arial, sans-serif;
         font-size: 2em;
         line-height: .9em;
         width: 50%;
@@ -1973,7 +1970,7 @@ h2 {
       margin: 0 auto; }
       .ct-jumbotron .ct-section-1 .ct-title-1 {
         color: #58595B;
-        font-family: 'alright_sansblack';
+        font-family: 'Terpel Sans', Arial, sans-serif;
         font-size: 2em;
         line-height: .9em;
         width: 50%;
@@ -2173,7 +2170,7 @@ h2 {
       margin: 0 auto; }
       .ct-jumbotron .ct-section-1 .ct-title-1 {
         color: #58595B;
-        font-family: 'alright_sansblack';
+        font-family: 'Terpel Sans', Arial, sans-serif;
         font-size: 2em;
         line-height: .9em;
         width: 50%;
@@ -2341,7 +2338,7 @@ h2 {
 
 @media screen and (max-width: 768px) {
   h2 {
-    font-family: 'alright_sansblack';
+    font-family: 'Terpel Sans', Arial, sans-serif;
     font-size: 2em;
     color: #58595B;
     padding-left: 55px; }
@@ -2812,7 +2809,7 @@ h2 {
             width: 300px; }
             .ct-section-6 .wrapper-section-6 .ct-convertion .ct-valr .valr .unid {
               color: #ff1e0a;
-              font-family: 'alright_sansblack';
+              font-family: 'Terpel Sans', Arial, sans-serif;
               font-size: 1.8em; }
             .ct-section-6 .wrapper-section-6 .ct-convertion .ct-valr .valr p {
               text-align: center; }
@@ -3013,7 +3010,7 @@ h2 {
 
 @media screen and (max-width: 640px) {
   h2 {
-    font-family: 'alright_sansblack';
+    font-family: 'Terpel Sans', Arial, sans-serif;
     font-size: 2em;
     color: #58595B;
     padding-left: 55px; }
@@ -3505,7 +3502,7 @@ h2 {
             width: 300px; }
             .ct-section-6 .wrapper-section-6 .ct-convertion .ct-valr .valr .unid {
               color: #ff1e0a;
-              font-family: 'alright_sansblack';
+              font-family: 'Terpel Sans', Arial, sans-serif;
               font-size: 1.8em; }
             .ct-section-6 .wrapper-section-6 .ct-convertion .ct-valr .valr p {
               text-align: center; }
@@ -3706,7 +3703,7 @@ h2 {
 
 @media screen and (max-width: 480px) {
   h2 {
-    font-family: 'alright_sansblack';
+    font-family: 'Terpel Sans', Arial, sans-serif;
     font-size: 2em;
     color: #58595B;
     padding-left: 55px; }
@@ -4200,7 +4197,7 @@ h2 {
             width: 300px; }
             .ct-section-6 .wrapper-section-6 .ct-convertion .ct-valr .valr .unid {
               color: #ff1e0a;
-              font-family: 'alright_sansblack';
+              font-family: 'Terpel Sans', Arial, sans-serif;
               font-size: 1.8em; }
             .ct-section-6 .wrapper-section-6 .ct-convertion .ct-valr .valr p {
               text-align: center; }
@@ -4503,7 +4500,7 @@ h2 {
           margin-top: 0;
           padding-left: 0; }
         .ct-nt-options .wrapper-ct-nt-options .nt-article-wrapper .nt-desc-article .nt-subtitle {
-          font-family: 'alright_sansmedium';
+          font-family: 'Terpel Sans', Arial, sans-serif;
           padding-bottom: 20px;
           text-transform: uppercase; }
         .ct-nt-options .wrapper-ct-nt-options .nt-article-wrapper .nt-desc-article .nt-article-desc {
@@ -4644,7 +4641,7 @@ h2 {
             margin-top: 0;
             padding-left: 0; }
           .ct-nt-options .wrapper-ct-nt-options .nt-article-wrapper .nt-desc-article .nt-subtitle {
-            font-family: 'alright_sansmedium';
+            font-family: 'Terpel Sans', Arial, sans-serif;
             padding-bottom: 20px;
             text-transform: uppercase; }
           .ct-nt-options .wrapper-ct-nt-options .nt-article-wrapper .nt-desc-article .nt-article-desc {
@@ -4785,7 +4782,7 @@ h2 {
             margin-top: 0;
             padding-left: 0; }
           .ct-nt-options .wrapper-ct-nt-options .nt-article-wrapper .nt-desc-article .nt-subtitle {
-            font-family: 'alright_sansmedium';
+            font-family: 'Terpel Sans', Arial, sans-serif;
             padding-bottom: 20px;
             text-transform: uppercase; }
           .ct-nt-options .wrapper-ct-nt-options .nt-article-wrapper .nt-desc-article .nt-article-desc {
@@ -5207,7 +5204,7 @@ h2 {
     .ct-int-body .ct-int-desc h2 {
       padding-left: 0; }
     .ct-int-body .ct-int-desc .int-subtitle {
-      font-family: 'alright_sansmedium';
+      font-family: 'Terpel Sans', Arial, sans-serif;
       padding-bottom: 25px; }
     .ct-int-body .ct-int-desc .int-desc {
       font-size: 1em;
@@ -5385,7 +5382,7 @@ h2 {
     .ct-int-body .ct-int-desc h2 {
       padding-left: 0; }
     .ct-int-body .ct-int-desc .int-subtitle {
-      font-family: 'alright_sansmedium';
+      font-family: 'Terpel Sans', Arial, sans-serif;
       padding-bottom: 25px; }
     .ct-int-body .ct-int-desc .int-desc {
       font-size: 1em;
@@ -5556,7 +5553,7 @@ h2 {
     .ct-int-body .ct-int-desc h2 {
       padding-left: 0; }
     .ct-int-body .ct-int-desc .int-subtitle {
-      font-family: 'alright_sansmedium';
+      font-family: 'Terpel Sans', Arial, sans-serif;
       padding-bottom: 25px; }
     .ct-int-body .ct-int-desc .int-desc {
       font-size: 1em;
@@ -5614,7 +5611,7 @@ h2 {
     .ct-int-body .ct-int-desc h2 {
       padding-left: 0; }
     .ct-int-body .ct-int-desc .int-subtitle {
-      font-family: 'alright_sansmedium';
+      font-family: 'Terpel Sans', Arial, sans-serif;
       padding-bottom: 25px; }
     .ct-int-body .ct-int-desc .int-desc {
       font-size: 1em;
@@ -5870,7 +5867,7 @@ h2 {
     -ms-flex-align: center;
     align-items: center; }
     .wrapper-ct-reg .ct-reg-subtitle .ct-inc-subtitle {
-      font-family: 'alright_sansmedium';
+      font-family: 'Terpel Sans', Arial, sans-serif;
       text-align: center; }
     .wrapper-ct-reg .ct-reg-subtitle .ct-inc-subtitle:before, .wrapper-ct-reg .ct-reg-subtitle .ct-inc-subtitle:after {
       content: "";
@@ -5988,7 +5985,7 @@ h2 {
       -ms-flex-align: center;
       align-items: center; }
       .wrapper-ct-reg .ct-reg-subtitle .ct-inc-subtitle {
-        font-family: 'alright_sansmedium';
+        font-family: 'Terpel Sans', Arial, sans-serif;
         text-align: center; }
       .wrapper-ct-reg .ct-reg-subtitle .ct-inc-subtitle:before, .wrapper-ct-reg .ct-reg-subtitle .ct-inc-subtitle:after {
         content: "";
@@ -6101,7 +6098,7 @@ h2 {
       -ms-flex-align: center;
       align-items: center; }
       .wrapper-ct-reg .ct-reg-subtitle .ct-inc-subtitle {
-        font-family: 'alright_sansmedium';
+        font-family: 'Terpel Sans', Arial, sans-serif;
         text-align: center; }
       .wrapper-ct-reg .ct-reg-subtitle .ct-inc-subtitle:before, .wrapper-ct-reg .ct-reg-subtitle .ct-inc-subtitle:after {
         display: none; }
@@ -6217,7 +6214,7 @@ h2 {
       -ms-flex-align: center;
       align-items: center; }
       .wrapper-ct-reg .ct-reg-subtitle .ct-inc-subtitle {
-        font-family: 'alright_sansmedium';
+        font-family: 'Terpel Sans', Arial, sans-serif;
         text-align: center; }
       .wrapper-ct-reg .ct-reg-subtitle .ct-inc-subtitle:before, .wrapper-ct-reg .ct-reg-subtitle .ct-inc-subtitle:after {
         display: none; }
@@ -6335,7 +6332,7 @@ h2 {
       -ms-flex-align: center;
       align-items: center; }
       .wrapper-ct-reg .ct-reg-subtitle .ct-inc-subtitle {
-        font-family: 'alright_sansmedium';
+        font-family: 'Terpel Sans', Arial, sans-serif;
         text-align: center; }
       .wrapper-ct-reg .ct-reg-subtitle .ct-inc-subtitle:before, .wrapper-ct-reg .ct-reg-subtitle .ct-inc-subtitle:after {
         display: none; }
