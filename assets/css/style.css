@@ -2159,7 +2159,7 @@ h1.coming-soon__txt{
     font-weight: 800;
 }
 
-.promo__form-main > div.apexp > div > div > div > div.pbSubheader > table > tbody > tr > td > span > form > div > span > select{
+.promo__form-main > div.apexp > div > div.pbBody > div > div.pbSubsection > table.detailList > tbody > tr > td > span > form > div > span > select{
     width: 100%
 }
 
