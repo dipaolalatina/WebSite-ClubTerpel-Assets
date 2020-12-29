@@ -1707,6 +1707,10 @@ h2.cart__header-subtext{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e3e3e3', GradientType=0)
 } */
 
+.cart__success-main > body {
+    background: #e8e8e8!important;
+}
+
 .cart__success-main .title_content {
 	font-size: 24px;
 	font-weight: 500;
