@@ -1696,17 +1696,6 @@ h2.cart__header-subtext{
 
 /* Redención OK */
 
-/* .cart__success-main .fielo-main {
-	background: #fff;
-	background: -moz-linear-gradient(top, #fff 0, #e3e3e3 76%, #e3e3e3 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0, #fff), color-stop(76%, #e3e3e3), color-stop(100%, #e3e3e3));
-	background: -webkit-linear-gradient(top, #fff 0, #e3e3e3 76%, #e3e3e3 100%);
-	background: -o-linear-gradient(top, #fff 0, #e3e3e3 76%, #e3e3e3 100%);
-	background: -ms-linear-gradient(top, #fff 0, #e3e3e3 76%, #e3e3e3 100%);
-	background: linear-gradient(to bottom, #fff 0, #e3e3e3 76%, #e3e3e3 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e3e3e3', GradientType=0)
-} */
-
 .cart__success-main > body {
     background: #e8e8e8!important;
 }
@@ -1735,61 +1724,115 @@ h2.cart__header-subtext{
 }
 
 .cart__success-main .fielo-record-set__template .fielo-record {
-	max-width: 900px;
-	margin: 0 auto
+	max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0px;
 }
 
 .cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-ViewImage {
 	float: left;
-	width: 120px;
-	min-width: 120px;
-	min-height: 120px;
-	margin-right: 40px
+    width: 100%;
+    text-align: center;
+}
+
+.cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-ViewImage > span > img {
+    width: 50%;
+}
+
+@media (min-width:1080px) {
+    .cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-ViewImage {
+        width: 150px;
+        min-width: 120px;
+        min-height: 120px;
+        margin-right: 40px;
+    }
+
+    .cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-ViewImage > span > img {
+        width: 100%;
+    }
 }
 
 .cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-F_Producto__c {
 	float: left;
-	width: 400px;
-	color: #d52028;
-	font-weight: 700;
-	font-size: 16px;
-	margin-top: 20px;
-	text-transform: uppercase
+	width: 100%;
+	color: #666666;
+	font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (min-width:1080px) {
+    .cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-F_Producto__c {
+        width: 450px;
+        margin-top: 0px;
+        text-align: left;
+    }
 }
 
 .cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-F_ProductoNombre2__c {
 	float: left;
-	width: 400px;
-	color: #4c5051;
-	font-weight: 700;
-	font-size: 16px;
-	text-transform: uppercase
+	width: 100%;
+	color: #ff1e0a;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media (min-width:1080px) {
+    .cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-F_ProductoNombre2__c {
+        width: 450px;
+        text-align: left;
+    }
 }
 
 .cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-F_ProductoDescripcion__c {
 	float: left;
-	width: 400px;
+	width: 100%;
 	margin: 10px 0;
-	color: #4c5051;
-	font-size: 12px
+	color: #666666;
+    font-size: 12px;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+@media (min-width:1080px) {
+    .cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-F_ProductoDescripcion__c {
+        width: 450px;
+        padding: 0;
+    }
 }
 
 .cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-F_CodigoBono__c {
-	float: left;
-	width: 200px;
-	color: #4c5051;
-	font-size: 10px;
-	text-align: center;
-	margin-top: -30px
+    float: left;
+    width: 100%;
+    color: #666666;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (min-width:1080px) {
+    .cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-F_CodigoBono__c {
+        width: 350px;
+        margin-top: -35px;
+    }
 }
 
 .cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-FieloPLT__UniqueCode__c {
 	float: left;
-	width: 200px;
-	color: #4c5051;
-	font-weight: 700;
-	text-align: center;
-	margin-top: -17px
+    width: 100%;
+    color: #ff1e0a;
+    font-weight: 900;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 2.5rem;
+}
+
+@media (min-width:1080px) {
+    .cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-FieloPLT__UniqueCode__c {
+        width: 350px;
+    }
 }
 
 .cart__success-main .fielo-record-set__template .fielo-record .fielo-field--is-VoucherLink__c {
