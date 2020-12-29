@@ -1462,7 +1462,7 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
 }
 
 .cart__background .datos_usuario {
-	font-family: 'Alright Sans';
+	font-family: 'Terpel Sans', Arial, sans-serif;
 	font-weight: 500;
 	max-width: 900px;
 	margin: 20px auto;
@@ -1488,7 +1488,7 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
 .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-Name {
 	float: right;
 	width: 75%;
-	font-family: 'Alright Sans';
+	font-family: 'Terpel Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 18px;
 	text-transform: uppercase;
@@ -1511,7 +1511,7 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
 }
 
 .cart__background .fieloplt-shopping-cart .fielo-record .content-block .actions .points {
-	font-family: 'Alright Sans';
+	font-family: 'Terpel Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 20px;
 	color: #d52028
@@ -1530,7 +1530,7 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
 .cart__background .no-items .text {
 	padding: 40px;
 	text-align: center;
-	font-family: 'Alright Sans';
+	font-family: 'Terpel Sans', Arial, sans-serif;
 	font-weight: 700;
 	color: #afb3b5
 }
@@ -1544,7 +1544,7 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
 	border: none;
 	border-radius: 20px;
 	color: #fff;
-	font-family: 'Alright Sans';
+	font-family: 'Terpel Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 	padding: 10px
@@ -1556,7 +1556,7 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
 
 .cart__background .foot-bar .resumen {
 	text-align: right;
-	font-family: 'Alright Sans';
+	font-family: 'Terpel Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 22px
 }
@@ -1595,7 +1595,7 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
 .reward_detail .listado .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-Name,
 .reward_detail .redime_millas .listado .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-Name,
 .reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .listado .fielo-record .content-block .fielo-field--is-F_Nombre2__c {
-	font-family: 'Alright Sans';
+	font-family: 'Terpel Sans', Arial, sans-serif;
 	font-weight: 700;
 	margin: 5px 10px;
 	color: #666
@@ -1636,7 +1636,7 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
 .reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
 .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Nombre2__c,
 .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name {
-	font-family: 'Alright Sans';
+	font-family: 'Terpel Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 23px;
 	text-transform: uppercase;
