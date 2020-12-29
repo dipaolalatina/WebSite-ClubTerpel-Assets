@@ -2116,6 +2116,14 @@ div.cart-success__txt{
     letter-spacing: .08em;
 }
 
+.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Nombre2__c{
+    font-family: 'Terpel Sans', Arial, sans-serif!important;
+    text-transform: none;
+    font-weight: 900;
+    color: #ff1e0a;
+    font-size: 2.5rem;
+}
+
 /* Coming Soon */
 
 img.coming-soon__logo{
