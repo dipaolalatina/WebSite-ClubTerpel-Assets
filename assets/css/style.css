@@ -2172,7 +2172,7 @@ h1.coming-soon__txt{
 }
 
 .promo__form-main > div.apexp > div > div.pbBody > div > div.pbSubsection > table.detailList > tbody > tr > td > span > form > div > span > select,
-.promo__form-main > div.apexp > div > div.pbBody > div > div.pbSubsection > table.detailList > tbody > tr > td > span > form > div > span > input[text]{
+.promo__form-main > div.apexp > div > div.pbBody > div > div.pbSubsection > table.detailList > tbody > tr > td > span > form > div > span > input.input{
     width: 100%;
     margin-bottom: 20px;
     padding: 12px 8px;
