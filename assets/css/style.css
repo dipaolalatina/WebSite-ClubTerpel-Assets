@@ -1738,8 +1738,7 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
 }
 
 .cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Nombre2__c,
-.reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
-.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Nombre2__c{
+.reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c{
 	font-family: 'Terpel Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 23px;
@@ -2048,6 +2047,7 @@ div.cart-success__txt{
 }
 
 .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name {
+    font-family: 'Terpel Sans', Arial, sans-serif!important;
 	text-transform: none;
     color: #666666;
     font-size: 1.2rem;
@@ -2056,6 +2056,7 @@ div.cart-success__txt{
 }
 
 .reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c{
+    font-family: 'Terpel Sans', Arial, sans-serif!important;
     text-transform: none;
     font-weight: 900;
     color: #ff1e0a;
