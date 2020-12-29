@@ -1696,7 +1696,7 @@ h2.cart__header-subtext{
 
 /* Redención OK */
 
-.cart__success-main .fielo-main {
+/* .cart__success-main .fielo-main {
 	background: #fff;
 	background: -moz-linear-gradient(top, #fff 0, #e3e3e3 76%, #e3e3e3 100%);
 	background: -webkit-gradient(left top, left bottom, color-stop(0, #fff), color-stop(76%, #e3e3e3), color-stop(100%, #e3e3e3));
@@ -1705,10 +1705,9 @@ h2.cart__header-subtext{
 	background: -ms-linear-gradient(top, #fff 0, #e3e3e3 76%, #e3e3e3 100%);
 	background: linear-gradient(to bottom, #fff 0, #e3e3e3 76%, #e3e3e3 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e3e3e3', GradientType=0)
-}
+} */
 
 .cart__success-main .title_content {
-	font-family: 'Alright Sans';
 	font-size: 24px;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -1748,7 +1747,6 @@ h2.cart__header-subtext{
 	float: left;
 	width: 400px;
 	color: #d52028;
-	font-family: 'Alright Sans';
 	font-weight: 700;
 	font-size: 16px;
 	margin-top: 20px;
@@ -1759,7 +1757,6 @@ h2.cart__header-subtext{
 	float: left;
 	width: 400px;
 	color: #4c5051;
-	font-family: 'Alright Sans';
 	font-weight: 700;
 	font-size: 16px;
 	text-transform: uppercase
@@ -1786,7 +1783,6 @@ h2.cart__header-subtext{
 	float: left;
 	width: 200px;
 	color: #4c5051;
-	font-family: 'Alright Sans';
 	font-weight: 700;
 	text-align: center;
 	margin-top: -17px
@@ -1811,7 +1807,6 @@ h2.cart__header-subtext{
 .cart__error-main .message,
 .cart__success-main .foot {
 	text-align: center;
-	font-family: 'Alright Sans';
 	font-size: 12px
 }
 
@@ -1836,6 +1831,12 @@ h2.cart__header-subtext{
 
 .cart__success-main .foot .volver_home {
 	background-color: #d52028
+}
+
+h1.cart-success__header{
+    color: #666666;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 
