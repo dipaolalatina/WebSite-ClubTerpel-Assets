@@ -52,7 +52,7 @@ html, body{
     padding: 0;
     margin: 0;
     border: 0;
-    font-family: 'Terpel Sans', Arial, sans-serif;
+    font-family: 'Terpel Sans', Arial, sans-serif!important;
     font-style: normal;
     font-weight: 500;
 }
