@@ -1406,3 +1406,248 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
 .cart__background > body{
     background: #e8e8e8!important;
 }
+
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .actions .cantidad input,
+.inputQuantity,
+.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-FieloCMSPLT_AddtoCart input {
+	border: 1px solid #d52028;
+	border-radius: 20px;
+	background-color: #efefef;
+	font-size: 11px;
+	padding: 7px 0 7px 13px;
+	text-align: center;
+	width: 60px
+}
+
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .landing .post .fielo-field--is-F_Nombre2__c,
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .landing .post .fielo-field--is-Name,
+.landing .post .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.landing .post .cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name,
+.landing .post .fielo-field--is-Name,
+.landing .post .reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-Name,
+.reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .landing .post .fielo-field--is-Name {
+	float: left;
+	width: 200px;
+	font-size: 12px;
+	font-weight: 700
+}
+
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .faq .fielo-field--is-F_Nombre2__c,
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .faq .fielo-field--is-Name,
+.faq .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.faq .cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name,
+.faq .fielo-field--is-Name,
+.faq .reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-Name,
+.reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .faq .fielo-field--is-Name {
+	border-bottom: 1px solid #ccc;
+	border-top: none;
+	padding-left: 10px;
+	vertical-align: bottom
+}
+
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .faq .fielo-field--is-F_Nombre2__c a,
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .faq .fielo-field--is-Name a,
+.faq .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c a,
+.faq .cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name a,
+.faq .fielo-field--is-Name a,
+.faq .reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-Name a,
+.reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .faq .fielo-field--is-Name a {
+	font-weight: 700;
+	color: inherit
+}
+
+.cart__background .fieloplt-shopping-cart .fielo-record,
+.cart__background .no-items .text {
+	border-bottom: 1px solid #d2d7d7
+}
+
+.cart__background .datos_usuario {
+	font-family: 'Alright Sans';
+	font-weight: 500;
+	max-width: 900px;
+	margin: 20px auto;
+	text-transform: uppercase
+}
+
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 20px 0
+}
+
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-button__delete {
+	margin: 30px auto
+}
+
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-FieloPLT__Image__c {
+	float: left;
+	width: 20%
+}
+
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-Name {
+	float: right;
+	width: 75%;
+	font-family: 'Alright Sans';
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #d52028
+}
+
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name,
+.reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-Name {
+	color: #4c5051
+}
+
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Descripcion__c {
+	float: right;
+	width: 75%;
+	margin: 10px 0;
+	padding-right: 20px;
+	font-size: 12px;
+	color: #4c5051
+}
+
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .actions .points {
+	font-family: 'Alright Sans';
+	font-weight: 700;
+	font-size: 20px;
+	color: #d52028
+}
+
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .actions .disponible {
+	font-size: 10px;
+	color: #4c5051
+}
+
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .actions .cantText {
+	margin-top: 10px;
+	font-size: 12px
+}
+
+.cart__background .no-items .text {
+	padding: 40px;
+	text-align: center;
+	font-family: 'Alright Sans';
+	font-weight: 700;
+	color: #afb3b5
+}
+
+.cart__background .foot-bar {
+	width: 900px;
+	margin: 30px auto
+}
+
+.cart__background .foot-bar button {
+	border: none;
+	border-radius: 20px;
+	color: #fff;
+	font-family: 'Alright Sans';
+	font-weight: 700;
+	font-size: 12px;
+	padding: 10px
+}
+
+.cart__background .foot-bar .boton-volver button {
+	background-color: #afb3b5
+}
+
+.cart__background .foot-bar .resumen {
+	text-align: right;
+	font-family: 'Alright Sans';
+	font-weight: 700;
+	font-size: 22px
+}
+
+.cart__background .foot-bar .boton-finalizar {
+	text-align: right
+}
+
+.cart__background .foot-bar .boton-finalizar button {
+	background-color: #d52028
+}
+
+.cart__background .fieloplt-shopping-cart .redime_millas .listado .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.cart__background .fieloplt-shopping-cart .reward_detail .listado .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.redime_millas .cart__background .fieloplt-shopping-cart .reward_detail .listado .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Nombre2__c,
+.redime_millas .listado .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.redime_millas .listado .fielo-record .fielo-field--is-F_MillasLM__c,
+.redime_millas .listado .fielo-record .fielo-field--is-F_Nombre2__c,
+.redime_millas .listado .fielo-record .fielo-field--is-F_VerMas__c,
+.redime_millas .listado .fielo-record .fielo-field--is-FieloCMSPLT_AddtoCart,
+.redime_millas .listado .fielo-record .fielo-field--is-FieloPLT__Points__c,
+.redime_millas .listado .fielo-record .fielo-field--is-Name,
+.redime_millas .listado .fielo-record .fielo-field__incommon,
+.redime_millas .listado .reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-Name,
+.redime_millas .reward_detail .listado .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-Name,
+.redime_millas .reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .listado .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.reward_detail .cart__background .fieloplt-shopping-cart .redime_millas .listado .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Nombre2__c,
+.reward_detail .listado .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.reward_detail .listado .fielo-record .fielo-field--is-F_MillasLM__c,
+.reward_detail .listado .fielo-record .fielo-field--is-F_Nombre2__c,
+.reward_detail .listado .fielo-record .fielo-field--is-F_VerMas__c,
+.reward_detail .listado .fielo-record .fielo-field--is-FieloCMSPLT_AddtoCart,
+.reward_detail .listado .fielo-record .fielo-field--is-FieloPLT__Points__c,
+.reward_detail .listado .fielo-record .fielo-field--is-Name,
+.reward_detail .listado .fielo-record .fielo-field__incommon,
+.reward_detail .listado .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-Name,
+.reward_detail .redime_millas .listado .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-Name,
+.reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .listado .fielo-record .content-block .fielo-field--is-F_Nombre2__c {
+	font-family: 'Alright Sans';
+	font-weight: 700;
+	margin: 5px 10px;
+	color: #666
+}
+
+.cart__background .fieloplt-shopping-cart .redime_millas .listado .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.cart__background .fieloplt-shopping-cart .redime_millas .listado .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Nombre2__c,
+.cart__background .fieloplt-shopping-cart .redime_millas .listado .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name,
+.cart__background .fieloplt-shopping-cart .reward_detail .listado .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.cart__background .fieloplt-shopping-cart .reward_detail .listado .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Nombre2__c,
+.cart__background .fieloplt-shopping-cart .reward_detail .listado .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name,
+.redime_millas .listado .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.redime_millas .listado .cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Nombre2__c,
+.redime_millas .listado .cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name,
+.redime_millas .listado .fielo-record .fielo-field--is-F_Nombre2__c,
+.redime_millas .listado .fielo-record .fielo-field--is-Name,
+.redime_millas .listado .fielo-record .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name,
+.redime_millas .listado .reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.redime_millas .listado .reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-Name,
+.reward_detail .listado .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.reward_detail .listado .cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Nombre2__c,
+.reward_detail .listado .cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name,
+.reward_detail .listado .fielo-record .fielo-field--is-F_Nombre2__c,
+.reward_detail .listado .fielo-record .fielo-field--is-Name,
+.reward_detail .listado .fielo-record .reward .fieloplt-reward-detail .fielo-field--is-Name,
+.reward_detail .listado .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.reward_detail .listado .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-Name,
+.reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .listado .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .listado .fielo-record .content-block .fielo-field--is-Name,
+.reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .redime_millas .listado .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .redime_millas .listado .fielo-record .content-block .fielo-field--is-Name,
+.reward_detail .reward .fieloplt-reward-detail .listado .fielo-record .fielo-field--is-Name,
+.reward_detail .reward .fieloplt-reward-detail .redime_millas .listado .fielo-record .fielo-field--is-Name {
+	font-size: 14px
+}
+
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Nombre2__c,
+.reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Nombre2__c,
+.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name {
+	font-family: 'Alright Sans';
+	font-weight: 700;
+	font-size: 23px;
+	text-transform: uppercase;
+	color: #4c5051
+}
+
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Nombre2__c,
+.cart__background .fieloplt-shopping-cart .fielo-record .content-block .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name,
+.reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-F_Nombre2__c,
+.reward_detail .reward .fieloplt-reward-detail .cart__background .fieloplt-shopping-cart .fielo-record .content-block .fielo-field--is-Name,
+.reward_detail .reward .fieloplt-reward-detail .fielo-field--is-Name {
+	margin-top: 30px;
+	color: #d52028
+}
