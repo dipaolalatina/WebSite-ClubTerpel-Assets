@@ -1651,3 +1651,15 @@ div.fieloplt-add-to-cart > input.fieloplt-add-to-cart__quantity{
 	margin-top: 30px;
 	color: #d52028
 }
+
+h1.cart__header-name{
+    color: #666666;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+h2.cart__header-subtext{
+    color: #666666;
+    font-size: 1.5rem;
+}
