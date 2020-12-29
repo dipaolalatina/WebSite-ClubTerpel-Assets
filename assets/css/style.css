@@ -1373,7 +1373,7 @@ div.fieloplt-add-to-cart{
 @media (min-width:1400px) {
     div.fieloplt-add-to-cart{
         margin: 13px auto;
-        width: 82%;
+        width: 100%;
     }
 }
 
@@ -2091,6 +2091,12 @@ div.cart-success__txt{
     text-decoration: none;
 }
 
+@media (min-width:1400px) {
+    .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Volver__c{
+        margin-top: 54px;
+    }
+}
+
 .reward_detail .reward .fieloplt-reward-detail .fielo-field--is-F_Volver__c a{
     text-decoration: none;
     color: #ff1e0a;
@@ -2139,3 +2145,10 @@ img.coming-soon__logo{
 h1.coming-soon__txt{
     margin-top: 30px;
 }
+
+/* Promociones Private */
+
+.promo__form-main > div.apexp > div > div > div > div.pbSubheader.brandTertiaryBgr.tertiaryPalette{
+    display: none
+}
+
