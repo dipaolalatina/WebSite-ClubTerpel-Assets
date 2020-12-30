@@ -606,8 +606,15 @@ ol.lista__terminos-y-condiciones li{
 }
 
 .slds-form-element__label{
-    min-width: 100%;
-    text-align: center;
+    min-width: 17%;
+    text-align: left;
+}
+
+@media (min-width:1080px) {
+    .slds-form-element__label{
+        min-width: 100%;
+        text-align: center;
+    }
 }
 
 .slds-select{
@@ -801,6 +808,7 @@ dd.ac-cuadro__txt{
     font-weight: 800;
     color: #666;
     font-size: 2rem;
+    text-transform: capitalize;
 }
 
 .perfil__millas-text{
