@@ -1165,6 +1165,13 @@ div.form__update-data > span > form > div > select.input:focus {
 }
 
 @media (min-width:1080px) {
+    .banner-redime div.sfdc_richtext{
+        background: transparent;
+        padding: 50px 35px;
+    }
+}
+
+@media (min-width:1080px) {
     .banner-redime{        
         min-height: 365px;
         background-size: 100%;
