@@ -2211,6 +2211,10 @@ h1.coming-soon__txt{
     font-size: 2rem;
 }
 
+div.contacto__form > form{
+    margin-bottom: 40px;
+}
+
 div.contacto__form > form > span > div > div.mdl-cell--6-col{
     width: calc(100% - 16px);
 }
