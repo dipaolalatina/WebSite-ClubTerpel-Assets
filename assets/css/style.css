@@ -1159,7 +1159,7 @@ div.form__update-data > span > form > div > select.input:focus {
     background-position: 15% 50%;
 }
 
-.banner-redime div{
+.banner-redime div.sfdc_richtext{
     background: rgba(250, 250, 250, .7);
     padding: 50px 35px;
 }
