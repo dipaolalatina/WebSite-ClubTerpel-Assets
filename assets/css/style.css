@@ -2215,16 +2215,24 @@ div.contacto__form > form > span > div > div.mdl-cell--6-col{
     width: calc(100% - 16px);
 }
 
+div.contacto__form > form > span > div > div {
+    margin-top: 10px;
+}
+
 div.contacto__form > form > span > div > div > label {
     width: 75%;
     margin: 0 auto;
     display: block;
 }
 
-div.contacto__form > form > span > div > div > input,
-div.contacto__form > form > span > div > div > select {
+div.contacto__form > form > span > div > div > input.input,
+div.contacto__form > form > span > div > div > textarea {
     width: 75%;
     margin: 0 auto;
     display: block;
     margin-top: 5px;
+    border: 0;
+    border-radius: 10px;
+    padding: 7px 15px;
+    outline: none;
 }
