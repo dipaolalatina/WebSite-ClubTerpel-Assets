@@ -2202,3 +2202,29 @@ h1.coming-soon__txt{
     background: #ff1e0a;
     margin-top: 20px;
 }
+
+/* Contacto */
+
+.contacto__header{
+    font-weight: 800;
+    color: #666;
+    font-size: 2rem;
+}
+
+div.contacto__form > form > span > div > div.mdl-cell--6-col{
+    width: calc(100% - 16px);
+}
+
+div.contacto__form > form > span > div > div > label {
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+}
+
+div.contacto__form > form > span > div > div > input,
+div.contacto__form > form > span > div > div > select {
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5px;
+}
