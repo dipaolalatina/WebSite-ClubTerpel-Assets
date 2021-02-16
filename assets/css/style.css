@@ -325,6 +325,11 @@ html.bg-grey-4 body{
     color: #fff;
 }
 
+.footer__link-telefono{
+    text-decoration: none;
+    color: #fff;
+}
+
 /* Main Content Public */
 
 main.fielo-main{
