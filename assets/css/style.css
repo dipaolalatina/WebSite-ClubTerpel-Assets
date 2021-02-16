@@ -334,6 +334,10 @@ html.bg-grey-4 body{
     color: #fff;
 }
 
+.footer__link-telefono > span, .footer__link-telefono > span:visited{
+    color: #fff!important;
+}
+
 /* Main Content Public */
 
 main.fielo-main{
