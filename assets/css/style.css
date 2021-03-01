@@ -708,7 +708,7 @@ dt.ac-btn__title{
     padding: 10px 0;
 }
 
-.accordion dt,
+.accordion dt a,
 dt.ac-btn__title a{
     color: #666666;
     text-decoration: none;
