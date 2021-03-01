@@ -689,6 +689,7 @@ h2.h__subtitle-faq{
     margin: 40px 0;
 }
 
+.accordion dt,
 dt.ac-btn__title{
     background-image:
         linear-gradient(45deg, transparent 50%, #ff1e0a 50%),
@@ -707,6 +708,7 @@ dt.ac-btn__title{
     padding: 10px 0;
 }
 
+.accordion dt,
 dt.ac-btn__title a{
     color: #666666;
     text-decoration: none;
@@ -714,6 +716,7 @@ dt.ac-btn__title a{
     font-size: 1.1rem;
 }
 
+.accordion dd,
 dd.ac-cuadro__txt{
     padding: 20px;
     background: #e9e9e9;
