@@ -109,6 +109,7 @@ html.bg-grey-4 body{
     width: 70px;
     position: fixed;
     top: 40%;
+    z-index: 1;
 }
 
 .fielo-app-menu .fielo-list__item .fielo-link:active,
